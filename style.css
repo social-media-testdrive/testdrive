@@ -6,7 +6,7 @@
 }
 
 .topnav a {
-    font-family:'Open Sans', sans-serif;
+    font-family:'Josefin Sans', sans-serif;
     float: left;
     color: #FFF;
     text-align: center;
@@ -17,7 +17,7 @@
     margin-right: 150px;
 }
 .topnav b {
-    font-family:'Josefin Sans', sans-serif;
+    font-family:'Open Sans', sans-serif;
     float: left;
     color: #FFF;
     text-align: center;
