@@ -1,4 +1,34 @@
 
+body {
+margin:0;
+padding:0;
+}
+
+div#header{
+width:100%;
+height:30%;
+position:fixed;
+z-index:100;
+background-color:#89CCE2;
+ } 
+
+div#footer{
+width:100%;
+height:30%;
+position:fixed;
+bottom:0;
+background-color:#073949;
+}
+
+div#content{
+background-color:#0068AC;
+position:fixed;
+width:100%;
+height:100%;
+
+    }
+
+
 .topnav {
     background-color: #000;
     overflow: hidden;
