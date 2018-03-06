@@ -4,50 +4,48 @@ body {
 }
 
 .left_half {
-    width: 50%;
+    width: 40%;
+    padding: 10% 5%;
     float: left;
 }
 
+.headerPic {
+    width: 100%;
+}
+
 .right_half {
-    width: 50%;
+    width: 46%;
     float: left;
+    padding: 5% 2%;
 }
 
 .section1{
     width:100%;
     float: left;
-    z-index:100;
     background-color:#89CCE2;
  } 
 
 .section1 p{
-  color:#FFF;
+    color:#FFF;
     font-family:'Josefin Sans', sans-serif;
-    font-size: 25px;
+    font-size: 50px;
     font-weight: bold;
     text-align: left;
-    width: 30%; 
-    float: right;
-    padding-right: 50px;
-    padding-bottom:20px;
+    width: 90%; 
 }
 
 .section1 button{
-    height: 40px;
-    width: 150px;
+    height: 70px;
+    width: 250px;
     margin-right: 0px;
     background-color: #6eb43f;
     color: #FFF;
-    border-radius: 10px;
-    float: right;
+    border-radius: 20px;
     z-index: 1000;
     font-family: 'Open Sans', sans-serif; 
-    text-align: center;
+    font-size: 20px;
     line-height: 2;
     position: relative;
-    top: 60%;
-    right: 0%;
-    left: 20%;
 }
 
 .section2{
@@ -128,7 +126,6 @@ body {
     font-family: 'Open Sans', sans-serif; 
     text-align: center;
     line-height: 2.5;
-  
 }
 
 
