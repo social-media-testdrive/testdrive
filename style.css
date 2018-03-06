@@ -3,6 +3,23 @@ body {
     padding:0;
 }
 
+h1 {
+    color:#FFF;
+    font-family:'Josefin Sans', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: left;
+}
+
+h2 {
+    color:#FFF;
+    font-family:'Josefin Sans', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: left;
+    width: 90%; 
+}
+
 .left_half {
     width: 40%;
     padding: 10% 5%;
@@ -25,7 +42,7 @@ body {
     background-color:#89CCE2;
  } 
 
-.section1 p{
+h1 {
     color:#FFF;
     font-family:'Josefin Sans', sans-serif;
     font-size: 50px;
@@ -52,14 +69,28 @@ body {
     background-color:#0068AC;
     float: left;
     width:100%;
-    height: 100px;
+}
+
+.long_lesson {
+    width: 60%;
+    margin: 5% 20%;
+    height: 150px;
+    background-color: #ffffff;
 }
 
 .section3{
-    width:100%;
-    height: 100px;
+    width:90%;
     float: left;
     background-color:#073949;
+    padding: 2% 5%;
+}
+
+.forparents_lessons {
+    width: 29%;
+    margin: 2% 2%;
+    height: 300px;
+    float: left;
+    background-color: white;
 }
 
 .topnav {
