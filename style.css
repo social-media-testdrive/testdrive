@@ -3,6 +3,7 @@ body {
     padding:0;
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
+    min-width: 850px;
 }
 
 h1 {
