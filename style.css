@@ -104,8 +104,20 @@ h4 {
 .LL_img {
     width: 50%;
     height: 100%;
-    background-color: #C9D6A5;
     float: left;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#home_SelfPres {
+    background-image: url("img/self-presentation.png");
+    background-color: #019587;
+}
+
+#home_CyberBullying {
+    background-image: url("img/dislike.png");
+    background-color: #f8981d;
 }
 
 .LL_text {
@@ -271,7 +283,6 @@ h4 {
 .lessontitle {
     padding-top: 150px;
 }
-
 
 .lessoncontent {
     width: 80%;
