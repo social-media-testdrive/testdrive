@@ -234,6 +234,9 @@ h4 {
     height: 60%;
     float: left;
     background-color: #6EB43F;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .likepic {
@@ -242,16 +245,25 @@ h4 {
     float: left;
 }
 
-.self_presentation_PicHalf {
+.esteem-pic {
   width: 100%;
   height: 60%;
   float: left;
 }
 
-.esteem-pic {
-  width: 100%;
-  height: 60%;
-  float: left;
+#lesson_CyberBullying {
+    background-image: url("img/dislike.png");
+    background-color: #f8981d;
+}
+
+#lesson_SelfPres{
+    background-image: url("img/self-presentation.png");
+    background-color: #019587;
+}
+
+#lesson_Info{
+    background-image: url("img/information.jpg");
+    background-color: #275660;
 }
 
 .Bottom_TextHalf {
