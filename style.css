@@ -251,6 +251,12 @@ h4 {
   float: left;
 }
 
+#lesson_GetStart {
+    background-image: url("img/rocket.png");
+    background-color: #073949;
+    background-position: bottom;
+}
+
 #lesson_CyberBullying {
     background-image: url("img/dislike.png");
     background-color: #f8981d;
