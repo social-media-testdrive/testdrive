@@ -87,6 +87,7 @@ h4 {
 
 #homePage_button {
     background-color: #6eb43f;
+    cursor: pointer;
 }
 
 .section2{
@@ -252,7 +253,8 @@ h4 {
 }
 
 #forParents_button {
-    background-color: #89CCE2
+    background-color: #89CCE2;
+    cursor: pointer;
 }
 
 /*Lesson Page Styling*/
