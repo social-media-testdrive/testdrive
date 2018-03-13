@@ -170,7 +170,7 @@ h5 {
     color: #FFF;
     text-align: center;
     text-decoration: none;
-    font-size: 40px;
+    font-size: 27px;
     padding-left: 16px;
     background-color: #000;
 }
@@ -190,7 +190,7 @@ h5 {
     text-decoration: none;
     font-size: 15px;
     background-color: #000;
-    width: 33%;
+    width: 25%;
 }
 
 .links:hover {
@@ -203,7 +203,7 @@ h5 {
     float: left;
 }
 
-#smallButton {
+/* #smallButton {
     height: 40px;
     width: 150px;
     margin-right: 16px;
@@ -216,7 +216,7 @@ h5 {
     font-size: 15px;
     text-align: center;
     line-height: 2.5;
-}
+} */
 
 /*Lessons Page Styling*/
 .lessons_container {
