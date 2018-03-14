@@ -275,6 +275,16 @@ h5 {
     background-color: #019587;
 }
 
+#lesson_PowerofLikes {
+    background-image: url("img/likes2.jpg");
+    background-color: #FDFC4A;
+}
+
+#lesson_SelfEsteem {
+    background-image: url("img/self-esteem.png"); 
+    background-color: #00A59F;
+}
+
 #lesson_Info{
     background-image: url("img/information.jpg");
     background-color: #275660;
