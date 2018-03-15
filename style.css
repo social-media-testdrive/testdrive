@@ -343,3 +343,46 @@ h5 {
   width: 30%;
   margin-bottom: 15px;
 }
+
+/*Footer Stylings*/
+.footer {
+    width: 96%;
+    float: left;
+    background-color: #d3d3d3;
+    height: 30px;
+    padding-top: 20px; 
+    padding-bottom: 20px; 
+    padding-right: 2%;
+    padding-left: 2%;
+}
+
+.footCont_title {
+    width: 10%;
+    float: left;
+}
+
+.fTL {
+    text-decoration: none;
+}
+
+.footCont_links {
+    width: 90%;
+    float: left;
+}
+
+.footertitle {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+    color: grey;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.footerlinks {
+    text-align: right;
+    padding-left: 30px;
+    float: right;
+    text-decoration: none;
+    color: grey;
+}
