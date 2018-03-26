@@ -177,7 +177,7 @@ h5 {
 }
 
 #linksCont {
-    width: 40%;
+    width: 50%;
     padding-left: 10%;
     padding-right: 10%;
     float: left;
@@ -191,7 +191,7 @@ h5 {
     text-decoration: none;
     font-size: 15px;
     background-color: #000;
-    width: 25%;
+    width: 20%;
 }
 
 .links:hover {
@@ -281,7 +281,7 @@ h5 {
 }
 
 #lesson_SelfEsteem {
-    background-image: url("img/self-esteem.png"); 
+    background-image: url("img/self-esteem.png");
     background-color: #00A59F;
 }
 
@@ -350,8 +350,8 @@ h5 {
     float: left;
     background-color: #d3d3d3;
     height: 30px;
-    padding-top: 20px; 
-    padding-bottom: 20px; 
+    padding-top: 20px;
+    padding-bottom: 20px;
     padding-right: 2%;
     padding-left: 2%;
 }
