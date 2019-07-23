@@ -4,9 +4,9 @@ document.getElementById("topNav").innerHTML=
   '<a id="logo" href="#testdrive">Social Media TestDrive</a>' +
   '</div>' +
   '<div id="linksCont">' +
-    '<a class="links" href="lessons.html"><p>Lessons</p></a>'+
-    '<a class="links" href="for_parents.html"><p>For Parents</p></a>'+
     '<a class="links" href="about_us.html"><p>About</p></a>'+
+    '<a class="links" href="lessons.html"><p>Lessons</p></a>'+
+    '<a class="links" href="for_parents.html"><p>For Parents</p></a>'+  
     '<a class="links" href="team.html"><p>The Team</p></a>'+
     '<a class="links" href="gettingstarted.html"><p>Get Started</p><a>'+
   '</div>'+
