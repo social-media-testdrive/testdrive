@@ -1,7 +1,7 @@
 document.getElementById("topNav").innerHTML=
 '<div class="topnav">' +
   '<div id="logoCont">' +
-  '<a id="logo" href="index.html"><img src="img/logo.png" alt="logo">   Social Media TestDrive</a>' +
+  ' <a id="logo" href="index.html"><img src="img/logo.png" alt="logo">   Social Media TestDrive</a>' +
   '</div>' +
   '<div id="linksCont">' +
     '<a class="links" href="about_us.html"><p>About</p></a>'+
