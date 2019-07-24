@@ -245,7 +245,9 @@ h5 {
 
 .lessonsBox {
     width: 40%;
-    margin: 7% 5%;
+    margin-left:6.4%;
+    margin-bottom:5%;
+    margin-top:3%;
     height: 500px;
     float: left;
     text-align: center;
