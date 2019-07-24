@@ -16,11 +16,11 @@ document.getElementById("bottomNav").innerHTML=
 '<div class="footer">' +
   '<div class="footCont_title"><a class="fTL" href="../index.html"><p class="footertitle">Social Media</p><p class="footertitle">TestDrive</p><a></div>' +
   '<div class="footCont_links">'+
-  '<a class="footerlinks" href="terms.html"><p>Terms & Copyright</p><a>' +
-  '<a class="footerlinks" href="gettingstarted.html"><p>Get Started</p><a>' +
-  '<a class="footerlinks" href="team.html"><p>The Team</p></a>' +
-  '<a class="footerlinks" href="for_parents.html"><p>For Parents</p></a>'+
-  '<a class="footerlinks" href="lessons.html"><p>Lessons</p></a>'+
-  '<a class="footerlinks" href="about_us.html"><p>About</p></a>' +
+    '<a class="footerlinks" href="terms.html"><p>Terms & Copyright</p><a>' +
+    '<a class="footerlinks" href="gettingstarted.html"><p>Get Started</p><a>' +
+    '<a class="footerlinks" href="team.html"><p>The Team</p></a>' +
+    '<a class="footerlinks" href="for_parents.html"><p>For Parents</p></a>'+
+    '<a class="footerlinks" href="lessons.html"><p>Lessons</p></a>'+
+    '<a class="footerlinks" href="about_us.html"><p>About</p></a>' +
   '</div>' +
 '</div>';
