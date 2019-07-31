@@ -2,7 +2,7 @@ body {
     margin:0;
     padding:0;
     font-family: 'Open Sans', sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     min-width: 850px;
 }
 
@@ -53,8 +53,8 @@ h5 {
 }
 
 .left_half {
-    width: 30%;
-    padding-left:8%;
+    width: 20%;
+    padding-left:10%;
     padding-right:3%;
     padding-top:1%;
     float: left;
@@ -71,7 +71,7 @@ h5 {
 }
 
 .right_half {
-    width: 46%;
+    width: 50%;
     float: left;
     padding-top:1%;
 }
@@ -143,6 +143,7 @@ h5 {
     height: 100%;
     float: left;
     text-align: center;
+    font-size: 12px;
 }
 
 .section3{
@@ -254,6 +255,10 @@ h5 {
   color: black;
 }
 
+.Bottom_TextHalf .black, a {
+  font-size: 12px;
+}
+
 .lessonsBox {
     width: 40%;
     margin-left:6.4%;
@@ -295,29 +300,29 @@ h5 {
     background-position: bottom;
 }
 
-/* #lesson_CyberBullying {
-    background-image: url("img/dislike.png");
-    background-color: #f8981d;
-} */
-
-#lesson_SelfPres{
-    background-image: url("img/self-presentation.png");
+#lesson_News{
+    background-image: url("img/newslitfinal.png");
     background-color: #019587;
 }
 
-#lesson_PowerofLikes {
-    background-image: url("img/likes2.jpg");
+#lesson_Info {
+    background-image: url("img/safepostfinal.png");
+    background-color: #f8981d;
+}
+
+#lesson_Online{
+    background-image: url("img/selfpresfinal.png");
+    background-color: #275660;
+}
+
+#lesson_DigitalFoot {
+    background-image: url("img/digfootfinal.png");
     background-color: #FDFC4A;
 }
 
-#lesson_SelfEsteem {
-    background-image: url("img/self-esteem.png");
+#lesson_Privacy {
+    background-image: url("img/privacyfinal.png");
     background-color: #00A59F;
-}
-
-#lesson_Info{
-    background-image: url("img/information.jpg");
-    background-color: #275660;
 }
 
 .Bottom_TextHalf {
@@ -326,11 +331,6 @@ h5 {
     text-align: center;
     margin-left: 2%;
     margin-right: 2%;
-}
-
-#linkunderline {
-  text-decoration: underline;
-  color: blue;
 }
 
 /*For Parent Page Styling*/
@@ -361,6 +361,7 @@ h5 {
 .lessoncontent {
     width: 80%;
     padding: 2% 10%;
+    margin-bottom:3%;
     float: left;
 }
 
@@ -430,6 +431,11 @@ h5 {
     color: grey;
 }
 
+#underline, #underline2, #underline3, #underline4, #underline5, #underline6 {
+  text-decoration: underline;
+  color: blue;
+}
+
 @media only screen and (max-width: 1665px) {
 
   #logoCont {
@@ -446,17 +452,9 @@ h5 {
   }
 
   #linksCont {
-      padding-left: 1%;
-      width: 65%;
-      padding-right: 0%;
-  }
-
-  .left_half {
-      width: 30%;
-      padding-left:3%;
-      padding-right:3%;
-      padding-top:1%;
-      float: left;
+    padding-left: 1%;
+    width: 65%;
+    padding-right: 0%;
   }
 
   .headerPic1 {
@@ -474,23 +472,45 @@ h5 {
 
   .Top_PicHalf {
       width: 100%;
-      height: 60%;
+      height: 55%;
       background-size: 80%;
+  }
+
+  .fontbig {
+    font-size: 14px;
   }
 }
 
 @media only screen and (max-width: 1359px) {
   #logo img {
-    width: 20%;
+    width: 24%;
   }
 
   .Top_PicHalf {
-      height: 50%;
+      height: 47%;
       background-size: 80%;
+  }
+
+  .left_half {
+      width: 20%;
+      padding-left:5%;
+      padding-right: 5%;
+  }
+
+  .right_half {
+    width: 68%;
+  }
+
+  .right_half h1 {
+    font-size: 43px;
   }
 }
 
 @media only screen and (max-width: 1100px) {
+  .topnav {
+    height: 80px;
+  }
+
   #logo {
     font-size: 18px;
   }
@@ -507,12 +527,22 @@ h5 {
       width: 75%;
   }
 
+  .links {
+    font-size: 14px;
+  }
+
+  .headerPic {
+    width: 230px;
+    margin-top: 15px;
+  }
+
   .right_half h1 {
-    font-size: 40px;
+    font-size: 41px;
+    margin-top: 40px;
   }
 
   .right_half h4 {
-    font-size: 15px;
+    font-size: 17px;
   }
 
   .lessonheader h1 {
@@ -520,8 +550,8 @@ h5 {
   }
 
   .Top_PicHalf {
-      height: 50%;
-      background-size: 100%;
+    height: 43%;
+    background-size: 95%;
   }
 
 }
