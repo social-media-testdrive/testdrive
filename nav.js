@@ -9,7 +9,7 @@ document.getElementById("topNav").innerHTML=
     '<a class="links" href="for_educators.html"><p>For Educators</p></a>'+
     '<a class="links" href="for_parents.html"><p>For Parents</p></a>'+
     '<a class="links" href="team.html"><p>The Team</p></a>'+
-    '<a class="links" href="faq.html"><p>FAQ</p><a>'+
+    '<a class="links" href="faq.html"><p>FAQs</p><a>'+
   '</div>'+
 '</div>';
 
@@ -18,7 +18,7 @@ document.getElementById("bottomNav").innerHTML=
   '<div class="footCont_title"><a class="fTL" href="../index.html"><p class="footertitle">Social Media</p><p class="footertitle">TestDrive</p><a></div>' +
   '<div class="footCont_links">'+
     '<a class="footerlinks" href="terms.html"><p>Terms & Copyright</p><a>' +
-    '<a class="footerlinks" href="faq.html"><p>FAQ</p><a>' +
+    '<a class="footerlinks" href="faq.html"><p>FAQs</p><a>' +
     '<a class="footerlinks" href="team.html"><p>The Team</p></a>' +
     '<a class="footerlinks" href="for_parents.html"><p>For Parents</p></a>'+
     '<a class="footerlinks" href="for_educators.html"><p>For Educators</p></a>' +
