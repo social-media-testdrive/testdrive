@@ -156,8 +156,6 @@ h5 {
     background-color: #ffffff;
 }
 
-
-
 .LL_text {
     width: 45%;
     margin: 2.5% 2.5%;
@@ -194,12 +192,6 @@ h5 {
     background-color: white;
     width: 100%;
     height: 90px;
-}
-
-.myCode {
-  background-color: white;
-  width: 100%;
-  height: 90px;
 }
 
 #logoCont {
@@ -253,25 +245,6 @@ h5 {
     background-color: #89cce2;
 }
 
-.customlinks {
-    font-family:'Open Sans', sans-serif;
-    float: left;
-    color: black;
-    text-decoration: none;
-    font-size: 17px;
-    background-color: white;
-    width: 16%;
-    padding-top:31.5px;
-    padding-bottom:31.5;
-}
-
-.customlinks:hover {
-    color: white;
-    cursor: pointer;
-    font-weight:bold;
-    background-color: #89cce2;
-}
-
 #loginCont {
     width: 20%;
     float: left;
@@ -292,6 +265,14 @@ h5 {
     line-height: 2.5;
 } */
 
+#eduguide_button {
+    background-color: #6eb43f;
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+}
+
 /*Lessons Page Styling*/
 .lessons_container {
     width: 80%;
@@ -308,7 +289,7 @@ h5 {
 }
 
 .Bottom_TextHalf .black, a {
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .lessonsBox {
@@ -326,9 +307,9 @@ h5 {
 
 .Top_PicHalf {
     width: 100%;
-    height: 60%;
+    height: 100%;
     float: left;
-    background-color: #6EB43F;
+    background-color: #89CCE2;
     background-position: center;
     background-size: 70%;
     background-repeat: no-repeat;
@@ -348,33 +329,33 @@ h5 {
 
 #lesson_CyberBullying {
     background-image: url("img/cyberbullyingfinal.png");
-    background-color: #073949;
+    background-color: #ffffff;
     background-position: bottom;
 }
 
 #lesson_News{
     background-image: url("img/newslitfinal.png");
-    background-color: #019587;
+    background-color: #ffffff;
 }
 
 #lesson_Info {
     background-image: url("img/safepostfinal.png");
-    background-color: #f8981d;
+    background-color: #ffffff;
 }
 
 #lesson_Online{
     background-image: url("img/selfpresfinal.png");
-    background-color: #275660;
+    background-color: #ffffff;
 }
 
 #lesson_DigitalFoot {
     background-image: url("img/digfootfinal.png");
-    background-color: #FDFC4A;
+    background-color: #ffffff;
 }
 
 #lesson_Privacy {
     background-image: url("img/privacyfinal.png");
-    background-color: #00A59F;
+    background-color: #ffffff;
 }
 
 .Bottom_TextHalf {
@@ -387,7 +368,7 @@ h5 {
 
 /*For Parent Page Styling*/
 #forParents_s1 {
-    background-color: #6EB43F;
+    background-color: #89CCE2;
     height: 260px;
 }
 
@@ -441,7 +422,7 @@ h5 {
 
 /*Footer Stylings*/
 .footer {
-    width: 100%;
+    width: 96%;
     float: left;
     background-color: #d3d3d3;
     height: 40px;
@@ -573,10 +554,11 @@ h5 {
   .topnav {
     height: 80px;
   }
-
+    
   .customClassTwo{
     height: 80px;
   }
+
 
   #logo {
     font-size: 18px;
