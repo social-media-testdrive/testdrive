@@ -259,6 +259,14 @@ h5 {
     line-height: 2.5;
 } */
 
+#eduguide_button {
+    background-color: #6eb43f;
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+}
+
 /*Lessons Page Styling*/
 .lessons_container {
     width: 80%;
