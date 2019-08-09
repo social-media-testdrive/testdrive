@@ -2,6 +2,8 @@
 
 <html>
     <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title>TestDrive</title>
         <link rel="stylesheet" type="text/css" href="style.css">
         <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:600,700|Open+Sans" rel="stylesheet">
@@ -21,50 +23,117 @@
         </style>
     </head>
     <body>
-      <div id="topNav"></div>
+       <div id="topNav"></div>
 
-     <div id="container">
-      <div id="homePage_s1" class="section1">
-        <div class="left_half">
-          <img class="headerPic1" src="img/filler1.png" alt="headerPic">
+       <div id="container">
+        <div id="homePage_s1" class="section1">
+          <div class="left_half">
+            <img class="headerPic1" src="img/filler1.png" alt="headerPic">
+          </div>
+          <div class="right_half">
+            <h1>Learn digital citizenship skills through a social media simulation</h1>
+            <h4>Social Media TestDrive lets students practice digital citizenship skills within a safe and protected platform.</h4>
+            <button id="homePage_button" type="button" onclick="window.location.href = 'lessons.html';">View Our Lessons </button>
+          </div>
         </div>
-        <div class="right_half">
-          <h1>Learn digital citizenship skills through a social media simulation</h1>
-          <h4>Social Media TestDrive lets students practice digital citizenship skills within a safe and protected platform.</h4>
-          <button id="homePage_button" type="button" onclick="window.location.href = 'lessons.html';">View Our Lessons </button>
+
+        <div class="section2">
+
+          <div class="bd-example">
+            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="5"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="long_lesson">
+                    <a href="lessons.html">
+                      <div id="home_SelfPres" class="LL_img" ></div>
+                      <div class="LL_text">
+                        <p class="lessonBox_title">Is it Private Information?</p>
+                        <p style="color: black; font-size: 120%;">This module teaches what is safe to share with different social media audiences and what kind of information is inappropriate to share on social media.</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="long_lesson">
+                    <a href="lessons.html">
+                      <div id="home_DigitalFoot" class="LL_img"></div>
+                      <div class="LL_text">
+                        <p class="lessonBox_title">Shaping Your Digital Footprint</p>
+                        <p style="color: black; font-size: 120%;">This module teaches how actions on social media create a digital footprint and skills to positively shape digital footprints.</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="long_lesson">
+                    <a href="lessons.html">
+                      <div id="home_CyberBullying" class="LL_img"></div>
+                      <div class="LL_text">
+                        <p class="lessonBox_title">Upstanding to Cyberbullying</p>
+                        <p style="color: black; font-size: 120%;">This module teaches how to detect signs of cyberbullying and how to respond when seeing cyberbullying happening to others.</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="long_lesson">
+                    <a href="lessons.html">
+                      <div id="home_Presentation" class="LL_img"></div>
+                      <div class="LL_text">
+                        <p class="lessonBox_title">Online Identities</p>
+                        <p style="color: black; font-size: 120%;">This module teaches how to manage self-presentation and how online identities can change with different audiences on social media.</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="long_lesson">
+                    <a href="lessons.html">
+                      <div id="home_Privacy" class="LL_img"></div>
+                      <div class="LL_text">
+                        <p class="lessonBox_title">Social Media Privacy</p>
+                        <p style="color: black; font-size: 120%;">This module teaches how social media sites collect information about users and offers strategies for protecting privacy on social media.</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="long_lesson">
+                    <a href="lessons.html">
+                      <div id="home_NewsLit" class="LL_img"></div>
+                      <div class="LL_text">
+                        <p class="lessonBox_title">News in Social Media</p>
+                        <p style="color: black; font-size: 120%;">This module teaches why fake news exists and how to identify the telltale signs of fake news on social media.</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+          <a class="lesson_button" href="lessons.html">View all our lessons >></a>
         </div>
       </div>
-
-      <div class="section2">
-        <div class="long_lesson">
-          <a href="lessons.html">
-            <div id="home_CyberBullying" class="LL_img"></div>
-            <div class="LL_text">
-              <p class="lessonBox_title">Upstanding to Cyberbullying</p>
-              <p>This module will teach students how to detect signs of cyberbullying and
-                how to respond to cyberbullying situations. Students will be able to practice
-                "upstanding" behaviors to cyberbullying such as supporting the target, confronting
-                the bully, and reporting the cyberbullying posts to the social media site.</p>
-            </div>
-          </a>
-        </div>
-        <div class="long_lesson">
-          <a href="lessons.html">
-            <div id="home_SelfPres" class="LL_img" ></div>
-            <div class="LL_text">
-              <p class="lessonBox_title">Is it Private Information?</p>
-              <p>In this module, students will learn about what kinds of information are safe
-                to share with different social media audiences and identify examples of private
-                information that is inappropriate to share on social media.</p>
-            </div>
-          </a>
-        </div>
-      <a class="lesson_button" href="lessons.html">View all our lessons >></a>
-      </div>
-    </div>
-
-    <div id="bottomNav"></div>
-    <script src="nav.js"></script>
-
+      <div id="bottomNav"></div>
+      <script src="nav.js"></script>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     </body>
 </html>
