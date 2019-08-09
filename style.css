@@ -264,7 +264,7 @@ h5 {
     margin-left:6.4%;
     margin-bottom:5%;
     margin-top:3%;
-    height: 500px;
+    height: 350px;
     float: left;
     text-align: center;
     box-shadow: 5px 5px 10px grey;
@@ -274,7 +274,7 @@ h5 {
 
 .Top_PicHalf {
     width: 100%;
-    height: 60%;
+    height: 100%;
     float: left;
     background-color: #6EB43F;
     background-position: center;
@@ -296,38 +296,37 @@ h5 {
 
 #lesson_CyberBullying {
     background-image: url("img/cyberbullyingfinal.png");
-    background-color: #073949;
+    background-color: #EDDEA4;
     background-position: bottom;
 }
 
 #lesson_News{
     background-image: url("img/newslitfinal.png");
-    background-color: #019587;
+    background-color: #FFCDB2;
 }
 
 #lesson_Info {
     background-image: url("img/safepostfinal.png");
-    background-color: #f8981d;
+    background-color: #0FA3B1;
 }
 
 #lesson_Online{
     background-image: url("img/selfpresfinal.png");
-    background-color: #275660;
+    background-color: #F7A072;
 }
 
 #lesson_DigitalFoot {
     background-image: url("img/digfootfinal.png");
-    background-color: #FDFC4A;
+    background-color: #F9F7F3;
 }
 
 #lesson_Privacy {
     background-image: url("img/privacyfinal.png");
-    background-color: #00A59F;
+    background-color: #42CAFD;
 }
 
 .Bottom_TextHalf {
     width: 96%;
-    height: 50%;
     float: left;
     text-align: center;
     margin-left: 2%;
