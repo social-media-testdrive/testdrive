@@ -8,7 +8,6 @@ document.getElementById("topNav").innerHTML=
     '<a class="links" href="lessons.html"><p>Lessons</p></a>'+
     '<a class="links" href="for_educators.html"><p>For Educators</p></a>'+
     '<a class="links" href="for_parents.html"><p>For Parents</p></a>'+
-    '<a class="links" href="team.html"><p>The Team</p></a>'+
     '<a class="links" href="faq.html"><p>FAQs</p><a>'+
   '</div>'+
 '</div>';
