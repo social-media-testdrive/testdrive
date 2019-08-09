@@ -129,12 +129,31 @@ h5 {
 
 #home_CyberBullying {
     background-image: url("img/cyberbullyingfinal.png");
-    background-color: #019587;
+    background-color: #ffffff;
 }
 
 #home_SelfPres {
     background-image: url("img/safepostfinal.png");
-    background-color: #f8981d;
+    background-color: #ffffff;
+}
+
+#home_DigitalFoot {
+    background-image: url("img/digfootfinal.png");
+    background-color: #ffffff;
+}
+
+#home_Presentation {
+    background-image: url("img/selfpresfinal.png");
+    background-color: #ffffff;
+}
+#home_Privacy {
+    background-image: url("img/privacyfinal.png");
+    background-color: #ffffff;
+}
+
+#home_NewsLit {
+    background-image: url("img/newslitfinal.png");
+    background-color: #ffffff;
 }
 
 .LL_text {
