@@ -118,6 +118,14 @@ h5 {
     color: black;
 }
 
+.long_lesson_carousel {
+    width: 50%;
+    margin: 2% auto;
+    height: 300px;
+    background-color: #ffffff;
+    color: black;
+}
+
 .LL_img {
     width: 50%;
     height: 100%;
@@ -129,31 +137,31 @@ h5 {
 
 #home_CyberBullying {
     background-image: url("img/cyberbullyingfinal.png");
-    background-color: #ffffff;
+    background-color: #d3d3d3;
 }
 
 #home_SelfPres {
     background-image: url("img/safepostfinal.png");
-    background-color: #ffffff;
+    background-color: #d3d3d3;
 }
 
 #home_DigitalFoot {
     background-image: url("img/digfootfinal.png");
-    background-color: #ffffff;
+    background-color: #d3d3d3;
 }
 
 #home_Presentation {
     background-image: url("img/selfpresfinal.png");
-    background-color: #ffffff;
+    background-color: #d3d3d3;
 }
 #home_Privacy {
     background-image: url("img/privacyfinal.png");
-    background-color: #ffffff;
+    background-color: #d3d3d3;
 }
 
 #home_NewsLit {
     background-image: url("img/newslitfinal.png");
-    background-color: #ffffff;
+    background-color: #d3d3d3;
 }
 
 .LL_text {
@@ -348,33 +356,33 @@ h5 {
 
 #lesson_CyberBullying {
     background-image: url("img/cyberbullyingfinal.png");
-    background-color: #ffffff;
+    background-color: #d3d3d3;
     background-position: bottom;
 }
 
 #lesson_News{
     background-image: url("img/newslitfinal.png");
-    background-color: #ffffff;
+    background-color: #d3d3d3;
 }
 
 #lesson_Info {
     background-image: url("img/safepostfinal.png");
-    background-color: #ffffff;
+    background-color: #d3d3d3;
 }
 
 #lesson_Online{
     background-image: url("img/selfpresfinal.png");
-    background-color: #ffffff;
+    background-color: #d3d3d3;
 }
 
 #lesson_DigitalFoot {
     background-image: url("img/digfootfinal.png");
-    background-color: #ffffff;
+    background-color: #d3d3d3;
 }
 
 #lesson_Privacy {
     background-image: url("img/privacyfinal.png");
-    background-color: #ffffff;
+    background-color: #d3d3d3;
 }
 
 .Bottom_TextHalf {
