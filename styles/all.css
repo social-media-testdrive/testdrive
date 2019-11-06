@@ -11,6 +11,7 @@
 }
 
 /* FORMATTING SHIT */
+
 #logo {
   font-family:'Avenir Next', sans-serif;
   font-size: 30px;
@@ -92,4 +93,16 @@ p {
   height: auto;
   margin-left: 8%;
   /* float: right; */
+}
+
+/*Footer Stylings*/
+.footer {
+    width: 96%;
+    float: left;
+    background-color: #d3d3d3;
+    height: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 2%;
+    padding-left: 2%;
 }

@@ -187,7 +187,7 @@ h5 {
 #logoCont {
     width: 25%;
     float: left;
-    padding-top: 14.5px;
+    padding-top: 20px;
 }
 
 #logo img {
@@ -479,10 +479,6 @@ h5 {
 
 @media only screen and (max-width: 1665px) {
 
-  #logoCont {
-      width: 30%;
-  }
-
   #logo {
       font-size: 25px;
   }
@@ -547,15 +543,10 @@ h5 {
   }
 }
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 1200px) {
   .topnav {
     height: 80px;
   }
-
-  .customClassTwo{
-    height: 80px;
-  }
-
 
   #logo {
     font-size: 18px;
