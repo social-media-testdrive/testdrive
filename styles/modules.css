@@ -1,0 +1,134 @@
+/*Lessons Page Styling*/
+.lessons_container {
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.lessons_container a:link {
+  text-decoration: none;
+}
+
+.lessonheader {
+    background-color: #89cce2;  /* #073949; */
+    width: 100%;
+    float: left;
+    height: 220px;
+    padding: 20px 20px;
+}
+
+.lessontitle {
+    padding-top: 110px;
+    width: 75%;
+}
+
+.lessoncontent {
+    width: 80%;
+    padding: 2% 10%;
+    margin-bottom:3%;
+    float: left;
+}
+
+.lessoncontent p {
+  width: 800px;
+  /* font-size: 15px; */
+}
+
+.lessonsubheader {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    color: #777777;
+    padding-top: 20px;
+}
+
+/*the "view all our lessons" button on home page*/
+.lesson_button {
+  float: right;
+  color: #FFF;
+  text-decoration: none;
+  font-size: 15px;
+  width: 30%;
+  margin-bottom: 15px;
+}
+
+.black {
+  color: black;
+}
+
+.Bottom_TextHalf .black, a {
+  font-size: 14px;
+}
+
+.lessonsBox {
+    width: 40%;
+    margin-left:6.4%;
+    margin-bottom:5%;
+    margin-top:3%;
+    height: 500px;
+    float: left;
+    text-align: center;
+    box-shadow: 5px 5px 10px grey;
+    color: black;
+    overflow: hidden;
+}
+
+.Top_PicHalf {
+    width: 100%;
+    height: 100%;
+    float: left;
+    background-color: #89CCE2;
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+}
+
+.likepic {
+    width: 100%;
+    height: 60%;
+    float: left;
+}
+
+.esteem-pic {
+  width: 100%;
+  height: 60%;
+  float: left;
+}
+
+#lesson_CyberBullying {
+    background-image: url("img/cyberbullyingfinal.png");
+    background-color: #d3d3d3;
+    background-position: bottom;
+}
+
+#lesson_News{
+    background-image: url("img/newslitfinal.png");
+    background-color: #d3d3d3;
+}
+
+#lesson_Info {
+    background-image: url("img/safepostfinal.png");
+    background-color: #d3d3d3;
+}
+
+#lesson_Online{
+    background-image: url("img/selfpresfinal.png");
+    background-color: #d3d3d3;
+}
+
+#lesson_DigitalFoot {
+    background-image: url("img/digfootfinal.png");
+    background-color: #d3d3d3;
+}
+
+#lesson_Privacy {
+    background-image: url("img/privacyfinal.png");
+    background-color: #d3d3d3;
+}
+
+.Bottom_TextHalf {
+    width: 96%;
+    float: left;
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 2%;
+}

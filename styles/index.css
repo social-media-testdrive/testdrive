@@ -1,0 +1,91 @@
+#intro {
+  margin-left: 100px;
+  margin-top: 2%;
+  max-width: 40%;
+  float: left;
+}
+
+/* FORMATTING SHIT */
+
+#logo {
+  font-family:'Avenir Next', sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  color: #333333;
+  margin-left: 100px;
+  text-decoration: none;
+}
+#logo_pt2 {
+  font-family:'Avenir Next', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+  color: #D2AC58;
+  text-decoration: none;
+}
+
+#homePage_button {
+  background-color: #489BFF;
+  width: 250px;
+  height: 60px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-family:'Avenir Next', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* trying to fix arrows for carousel  */
+.carousel-control-next-icon {
+  background-color: #000;
+}
+
+.carousel-control-prev-icon {
+  background-color: #000;
+}
+
+.sr-only {
+  color: #000;
+}
+
+/* STYLE SHIT */
+.gold_accent {
+  color:#D2AC58;
+}
+
+h1 {
+  color:#333;
+  font-family:'Avenir Next', sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+h4 {
+  font-family:'Avenir Next', sans-serif;
+  font-size: 18px;
+  color: #A9A9A9;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+p {
+  font-family:'Avenir Next', sans-serif;
+  font-size: 18px;
+  color: #2B292D;
+}
+
+.lessonBox_title {
+  font-family:'Avenir Next', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #2B292D;
+}
+
+/* images */
+#home_img {
+  max-width: 35%;
+  height: auto;
+  margin-left: 8%;
+  /* float: right; */
+}
