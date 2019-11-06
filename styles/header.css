@@ -1,0 +1,20 @@
+/* ========== *
+ * = Header = *
+ * ========== */
+.header-container {
+	display: flex;
+}
+
+.navbar-container {
+	margin-left: auto;
+	float: right;
+}
+
+.header-title {
+	margin: 10px 20px;
+	float: left;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 30px;
+	color: white;
+}
