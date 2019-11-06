@@ -8,7 +8,6 @@
 /* FORMATTING SHIT */
 
 #logo {
-  font-family:'Avenir Next', sans-serif;
   font-size: 30px;
   font-weight: 500;
   color: #333333;
@@ -16,7 +15,6 @@
   text-decoration: none;
 }
 #logo_pt2 {
-  font-family:'Avenir Next', sans-serif;
   font-size: 30px;
   font-weight: bold;
   font-style: italic;
@@ -30,7 +28,6 @@
   height: 60px;
   border-radius: 30px;
   cursor: pointer;
-  font-family:'Avenir Next', sans-serif;
   font-size: 18px;
   font-weight: 500;
 }
@@ -55,14 +52,12 @@
 
 h1 {
   color:#333;
-  font-family:'Avenir Next', sans-serif;
   font-size: 48px;
   font-weight: bold;
   margin-top: 20px;
 }
 
 h4 {
-  font-family:'Avenir Next', sans-serif;
   font-size: 18px;
   color: #A9A9A9;
   margin-top: 20px;
@@ -70,13 +65,11 @@ h4 {
 }
 
 p {
-  font-family:'Avenir Next', sans-serif;
   font-size: 18px;
   color: #2B292D;
 }
 
 .lessonBox_title {
-  font-family:'Avenir Next', sans-serif;
   font-size: 24px;
   font-weight: bold;
   color: #2B292D;
