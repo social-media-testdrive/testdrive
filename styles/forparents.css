@@ -8,3 +8,13 @@
     background-color: #89CCE2;
     cursor: pointer;
 }
+
+.forparents_lessons {
+    width: 29%;
+    margin: 5% 2%;
+    height: 350px;
+    float: left;
+    background-color: white;
+    color: black;
+    box-shadow: 5px 5px 10px #2F4F4F;
+}
