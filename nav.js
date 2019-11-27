@@ -4,7 +4,7 @@ document.getElementById("topNav").innerHTML=
   ' <a id="logo" href="index.html"><img src="img/logo.png" alt="logo">   Social Media TestDrive</a>' +
   '</div>' +
   '<div id="linksCont">' +
-    '<a class="links" href="about_us.html"><p>About</p></a>'+
+    '<a class="links" href="about.html"><p>About</p></a>'+
     '<a class="links" href="lessons.html"><p>Modules</p></a>'+
     '<a class="links" href="for_educators.html"><p>For Educators</p></a>'+
     '<a class="links" href="for_parents.html"><p>For Parents</p></a>'+
@@ -21,6 +21,6 @@ document.getElementById("bottomNav").innerHTML=
     '<a class="footerlinks" href="for_parents.html"><p>For Parents</p></a>'+
     '<a class="footerlinks" href="for_educators.html"><p>For Educators</p></a>' +
     '<a class="footerlinks" href="lessons.html"><p>Modules</p></a>'+
-    '<a class="footerlinks" href="about_us.html"><p>About</p></a>' +
+    '<a class="footerlinks" href="about.html"><p>About</p></a>' +
   '</div>' +
 '</div>';

@@ -9,71 +9,20 @@ body {
     margin: auto;
 }
 
+h1 {
+  color: #333;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+h2 {
+  color: #2B292D;
+  font-size: 24px;
+  font-weight: 400;
+}
+
 ul {
 	list-style-type: none;
-}
-
-.long_lesson {
-    width: 50%;
-    margin: 5% 20%;
-    height: 300px;
-    background-color: #ffffff;
-    color: black;
-}
-
-.long_lesson_carousel {
-    width: 50%;
-    margin: 2% auto;
-    height: 300px;
-    background-color: #ffffff;
-    color: black;
-}
-
-.LL_img {
-    width: 50%;
-    height: 100%;
-    float: left;
-    background-position: center;
-    background-size: 90%;
-    background-repeat: no-repeat;
-}
-
-#home_CyberBullying {
-    background-image: url("img/cyberbullyingfinal.png");
-    background-color: #d3d3d3;
-}
-
-#home_SelfPres {
-    background-image: url("img/safepostfinal.png");
-    background-color: #d3d3d3;
-}
-
-#home_DigitalFoot {
-    background-image: url("img/digfootfinal.png");
-    background-color: #d3d3d3;
-}
-
-#home_Presentation {
-    background-image: url("img/selfpresfinal.png");
-    background-color: #d3d3d3;
-}
-#home_Privacy {
-    background-image: url("img/privacyfinal.png");
-    background-color: #d3d3d3;
-}
-
-#home_NewsLit {
-    background-image: url("img/newslitfinal.png");
-    background-color: #d3d3d3;
-}
-
-.LL_text {
-    width: 45%;
-    margin: 2.5% 2.5%;
-    height: 100%;
-    float: left;
-    text-align: center;
-    font-size: 12px;
 }
 
 .topnav {
@@ -83,17 +32,17 @@ ul {
 }
 
 #logoCont {
-    width: 25%;
+    /* width: 25%; */
     float: left;
-    padding-top: 20px;
+    padding-top: 40px;
 }
 
-#logo img {
+/* #logo img {
   width:100px;
   height:auto;
   padding-bottom:6px;
   vertical-align: middle;
-}
+} */
 
 /* #linksCont {
     width: 60%;
@@ -104,21 +53,6 @@ ul {
 } */
 
 .links:hover {
-    color: white;
-    cursor: pointer;
-    font-weight:bold;
-}
-
-.customlinks {
-    float: left;
-    color: #A9A9A9;
-    text-decoration: none;
-    font-size: 17px;
-    width: 16%;
-    margin: 30px 0px -30px 30px;
-}
-
-.customlinks:hover {
     color: white;
     cursor: pointer;
     font-weight:bold;
@@ -180,6 +114,7 @@ ul {
 .footerlinks {
     text-align: right;
     padding-left: 30px;
+    margin-left: 50px;
     float: right;
     text-decoration: none;
     color: grey;
@@ -210,14 +145,6 @@ ul {
   .Top_PicHalf {
       height: 47%;
       background-size: 80%;
-  }
-
-  .right_half {
-    width: 68%;
-  }
-
-  .right_half h1 {
-    font-size: 43px;
   }
 }
 

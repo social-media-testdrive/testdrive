@@ -10,22 +10,20 @@
 
 .navbar-container {
 	margin-left: auto;
-	float: left;
-  width: 60%;
-  text-align: center;
+	margin-right: 50px;
+	float: right;
+  width: 50%;
 }
 
 .navbar-links {
     float: left;
     color: #A9A9A9;
-    text-decoration: none;
     font-size: 17px;
-    width: 16%;
-    margin: 30px 0px -30px 30px;
+    width: 20%;
+    margin: 50px 0px -30px 30px;
 }
 
-.navbar-link:hover {
-    color: white;
-    cursor: pointer;
-    font-weight:bold;
+.navbar-links:hover {
+    text-decoration: none;
+    font-weight: bold;
 }
