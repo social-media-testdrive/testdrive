@@ -1,6 +1,6 @@
 document.getElementById("topNav").innerHTML=
 '<div class="topnav">' +
-  '<div id="logoCont">' +
+  '<div id="logo-container">' +
   ' <a id="logo" href="index.html"><img src="img/logo.png" alt="logo">   Social Media TestDrive</a>' +
   '</div>' +
   '<div id="linksCont">' +

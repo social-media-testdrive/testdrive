@@ -43,13 +43,6 @@
   margin-left: 100px;
   text-decoration: none;
 }
-#logo_pt2 {
-  font-size: 30px;
-  font-weight: bold;
-  font-style: italic;
-  color: #D2AC58;
-  text-decoration: none;
-}
 
 #homePage_button {
   background-color: #489BFF;
@@ -154,4 +147,5 @@
 
 ol.carousel-indicators li {
     background-color: #D2AC58;
+    margin-bottom: 4em;
 }

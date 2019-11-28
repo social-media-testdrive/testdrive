@@ -50,38 +50,6 @@ ul {
     height: 90px;
 }
 
-#logoCont {
-    /* width: 25%; */
-    float: left;
-    padding-top: 40px;
-}
-
-/* #logo img {
-  width:100px;
-  height:auto;
-  padding-bottom:6px;
-  vertical-align: middle;
-} */
-
-/* #linksCont {
-    width: 60%;
-    padding-right: 5%;
-    padding-left: 3%;
-    float: left;
-    text-align: center;
-} */
-
-.links:hover {
-    color: white;
-    cursor: pointer;
-    font-weight:bold;
-}
-
-#loginCont {
-    width: 20%;
-    float: left;
-}
-
 /*Footer Stylings*/
 .footer {
     width: 96%;
@@ -178,10 +146,6 @@ ul {
 
   #logo img {
     width: 30%;
-  }
-
-  #logoCont {
-      width: 20%;
   }
 
   #linksCont {

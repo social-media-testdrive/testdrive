@@ -5,7 +5,7 @@
 	display: flex;
   background-color: #F1F8FB;
   width: 100%;
-  height: 90px;
+  height: 120px;
 }
 
 .navbar-container {
@@ -27,3 +27,32 @@
     text-decoration: none;
     font-weight: bold;
 }
+
+#logo {
+  font-size: 30px;
+  font-weight: 500;
+  color: #333333;
+  margin-left: 100px;
+  text-decoration: none;
+}
+
+#logo-container {
+    /* width: 25%; */
+    float: left;
+    padding-top: 40px;
+}
+
+#logo_pt2 {
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+  color: #D2AC58;
+  text-decoration: none;
+}
+
+/* #logo img {
+  width:100px;
+  height:auto;
+  padding-bottom:6px;
+  vertical-align: middle;
+} */
