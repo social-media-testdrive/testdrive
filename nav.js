@@ -5,7 +5,7 @@ document.getElementById("topNav").innerHTML=
   '</div>' +
   '<div id="linksCont">' +
     '<a class="links" href="about.html"><p>About</p></a>'+
-    '<a class="links" href="lessons.html"><p>Modules</p></a>'+
+    '<a class="links" href="modules.html"><p>Modules</p></a>'+
     '<a class="links" href="for_educators.html"><p>For Educators</p></a>'+
     '<a class="links" href="for_parents.html"><p>For Parents</p></a>'+
     '<a class="links" href="faq.html"><p>FAQs</p><a>'+
@@ -20,7 +20,7 @@ document.getElementById("bottomNav").innerHTML=
     '<a class="footerlinks" href="faq.html"><p>FAQs</p><a>' +
     '<a class="footerlinks" href="for_parents.html"><p>For Parents</p></a>'+
     '<a class="footerlinks" href="for_educators.html"><p>For Educators</p></a>' +
-    '<a class="footerlinks" href="lessons.html"><p>Modules</p></a>'+
+    '<a class="footerlinks" href="modules.html"><p>Modules</p></a>'+
     '<a class="footerlinks" href="about.html"><p>About</p></a>' +
   '</div>' +
 '</div>';
