@@ -70,12 +70,24 @@
 
 /* trying to fix arrows for carousel  */
 
+.carousel-control-next {
+  padding-bottom: 5em;
+  padding-right: 10em;
+}
+
+.carousel-control-prev {
+  padding-bottom: 5em;
+  padding-left: 10em;
+}
+
 .carousel-control-next-icon {
-  caret-color: #000;
+  caret-color: #fff;
+  background-color: #000;
 }
 
 .carousel-control-prev-icon {
-  caret-color: #000;
+  caret-color: #fff;
+  background-color: #000;
 }
 
 /* Screen Reader */
@@ -88,25 +100,6 @@
   color:#D2AC58;
 }
 
-h4 {
-  font-size: 18px;
-  color: #A9A9A9;
-  margin-top: 20px;
-  margin-bottom: 40px;
-  line-height: normal;
-}
-
-p {
-  font-size: 18px;
-  color: #2B292D;
-}
-
-.lessonBox_title {
-  font-size: 24px;
-  font-weight: bold;
-  color: #2B292D;
-}
-
 /* images */
 #home_img {
   max-width: 35%;
@@ -116,54 +109,49 @@ p {
 }
 
 .carousel-content-container {
-    max-width: 50%;
+    max-width: 60%;
     margin: 2em auto;
-    height: 300px;
-}
-
-.LL_img {
-    width: 50%;
-    height: 100%;
-    float: left;
-    background-position: center;
-    background-size: 90%;
-    background-repeat: no-repeat;
-}
-
-#home_CyberBullying {
-    background-image: url("img/cyberbullyingfinal.png");
-    background-color: #d3d3d3;
-}
-
-#home_SelfPres {
-    background-image: url("img/safepostfinal.png");
-    background-color: #d3d3d3;
-}
-
-#home_DigitalFoot {
-    background-image: url("img/digfootfinal.png");
-    background-color: #d3d3d3;
-}
-
-#home_Presentation {
-    background-image: url("img/selfpresfinal.png");
-    background-color: #d3d3d3;
-}
-#home_Privacy {
-    background-image: url("img/privacyfinal.png");
-    background-color: #d3d3d3;
-}
-
-#home_NewsLit {
-    background-image: url("img/newslitfinal.png");
-    background-color: #d3d3d3;
+    height: 400px;
 }
 
 .carousel-text {
-    width: 45%;
-    margin: 1em 1em;
-    height: 100%;
+    max-width: 40%;
+    margin: 2em 2em;
     float: left;
     text-align: left;
     font-size: 18px;
+}
+
+.module-title {
+  margin-bottom: 20px;
+}
+
+.module-button {
+  background-color: #489BFF;
+  width: 200px;
+  height: 60px;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 1em;
+}
+
+#button-text {
+  color: white;
+}
+
+.module-image {
+  max-height: 90%;
+  float: right;
+}
+
+.placeholder {
+  /* float: right; */
+  max-width: 16em;
+  margin-top: 4em;
+  margin-right: 8em;
+}
+
+ol.carousel-indicators li {
+    background-color: #D2AC58;
 }
