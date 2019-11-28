@@ -115,20 +115,10 @@ p {
   /* float: right; */
 }
 
-.long_lesson {
-    width: 50%;
-    margin: 5% 20%;
+.carousel-content-container {
+    max-width: 50%;
+    margin: 2em auto;
     height: 300px;
-    background-color: #ffffff;
-    color: black;
-}
-
-.long_lesson_carousel {
-    width: 50%;
-    margin: 2% auto;
-    height: 300px;
-    background-color: #ffffff;
-    color: black;
 }
 
 .LL_img {
@@ -169,11 +159,11 @@ p {
     background-color: #d3d3d3;
 }
 
-.LL_text {
+.carousel-text {
     width: 45%;
-    margin: 2.5% 2.5%;
+    margin: 1em 1em;
     height: 100%;
     float: left;
-    text-align: center;
-    font-size: 12px;
+    text-align: left;
+    font-size: 18px;
 }
