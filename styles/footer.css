@@ -1,11 +1,10 @@
 .footer {
-  width: 100%;
+  height: 60px;
   flex-shrink: 0;
   background-color: #fff;
-  height: 60px;
+  box-shadow: 0 -2px 4px 0px #F1F8FB;
   padding-top: 20px;
   padding-bottom: 20px;
-  box-shadow: 0 -2px 4px 0px #F1F8FB;
   display: inline-flex;
 }
 

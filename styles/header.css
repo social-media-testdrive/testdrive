@@ -1,11 +1,10 @@
 /* ========== *
  * = Header = *
  * ========== */
-.header-container {
-	display: flex;
-  background-color: #F1F8FB;
-  width: 100%;
+header {
   height: 120px;
+	flex-shrink: 0;
+	background-color: #F1F8FB;
 }
 
 .navbar-container {
