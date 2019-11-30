@@ -10,6 +10,7 @@ body {
   display: flex;
   flex-direction: column;
   height: 100vh;
+  background-color: #F1F8FB;
 }
 
 main {
@@ -51,11 +52,11 @@ ul {
 	list-style-type: none;
 }
 
-.topnav {
+/* .topnav {
     background-color: white;
     width: 100%;
     height: 90px;
-}
+} */
 
 /*Footer Stylings*/
 /* .footer {
@@ -69,18 +70,7 @@ ul {
     padding-left: 2%;
 } */
 
-.customClass {
-    width: 100%;
-    float: left;
-    background-color: #000;
-    height: 120px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 2%;
-    padding-left: 2%;
-}
-
-.footCont_title {
+/* .footCont_title {
     width: 10%;
     float: left;
     padding-top:10px;
@@ -112,7 +102,7 @@ ul {
     float: right;
     text-decoration: none;
     color: grey;
-}
+} */
 
 #underline, #underline2, #underline3, #underline4, #underline5, #underline6 {
   text-decoration: underline;
