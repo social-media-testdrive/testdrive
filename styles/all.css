@@ -18,15 +18,15 @@ main {
 }
 
 h1 {
-  color: #333;
   font-size: 48px;
   font-weight: bold;
+  color: #333333;
 }
 
 h2 {
+  font-size: 32px;
+  font-weight: bold;
   color: #333333;
-  font-size: 24px;
-  font-weight: 400;
 }
 
 h3 {
@@ -41,6 +41,15 @@ h4 {
   margin-top: 20px;
   margin-bottom: 40px;
   line-height: normal;
+}
+
+.caption {
+  padding-top: 1em;
+  padding-left: 16em;
+  padding-right: 16em;
+  line-height: normal;
+  text-align: center;
+  font-size: 24px;
 }
 
 p {

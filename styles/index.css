@@ -43,14 +43,7 @@
   border-radius: 30px;
   cursor: pointer;
   font-size: 18px;
-  font-weight: 500;
-}
-
-#modulePromo {
-  padding-top: 1em;
-  padding-left: 16em;
-  padding-right: 16em;
-  line-height: normal;
+  font-weight: 600;
 }
 
 /* trying to fix arrows for carousel  */

@@ -1,4 +1,8 @@
 /*Modules Page Styling*/
+main {
+  text-align: center;
+}
+
 .modules_container {
   display: block;
   width: 80%;
@@ -7,52 +11,52 @@
 }
 
 .moduleBox {
-    display: inline-block;
-    width: 500px;
-    height: 500px;
-    margin: 2em;
-    text-align: center;
-    box-shadow: 0px 4px 16px #C3C3C3;
+  display: inline-block;
+  width: 500px;
+  height: 500px;
+  margin: 2em;
+  text-align: center;
+  box-shadow: 0px 4px 16px #C3C3C3;
+  border-radius: 8px;
 }
 
 .Top_PicHalf {
-    height: 50%;
-    background-position: center;
-    background-size: 70%;
-    background-repeat: no-repeat;
-    background-image: url("img/home.png");
-    background-color: #000;
+  height: 50%;
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: #FFF;
+  border-radius: 8px;
 }
 
 #lesson_CyberBullying {
-    background-image: url("img/cyberbullyingfinal.png");
-    background-color: #d3d3d3;
-    background-position: bottom;
+  background-image: url('/img/placeholder.png');
+  background-size: 50%;
 }
 
 #lesson_News{
-    background-image: url("img/newslitfinal.png");
-    background-color: #d3d3d3;
+  background-image: url('/img/placeholder.png');
+  background-size: 50%;
 }
 
 #lesson_Info {
-    background-image: url("img/safepostfinal.png");
-    background-color: #d3d3d3;
+  background-image: url('/img/placeholder.png');
+  background-size: 50%;
 }
 
 #lesson_Online{
-    background-image: url("img/selfpresfinal.png");
-    background-color: #d3d3d3;
+  background-image: url('/img/placeholder.png');
+  background-size: 50%;
 }
 
 #lesson_DigitalFoot {
-    background-image: url("img/digfootfinal.png");
-    background-color: #d3d3d3;
+  background-image: url('/img/placeholder.png');
+  background-size: 50%;
 }
 
 #lesson_Privacy {
-    background-image: url("img/privacyfinal.png");
-    background-color: #d3d3d3;
+  background-image: url('/img/placeholder.png');
+  background-size: 50%;
 }
 
 .Bottom_TextHalf {
@@ -61,6 +65,7 @@
     text-align: center;
     margin-left: 2%;
     margin-right: 2%;
+    border-radius: 8px;
 }
 
 .Bottom_TextHalf .black, a {

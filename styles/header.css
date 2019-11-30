@@ -17,36 +17,36 @@ header {
 .navbar-links {
     float: left;
     color: #A9A9A9;
-    font-size: 17px;
+    font-size: 18px;
     width: 20%;
     margin: 50px 0px -30px 30px;
 }
 
 .navbar-links:hover {
     text-decoration: none;
-    font-weight: bold;
+		color: #333333;
+    /* font-weight: bold; */
 }
 
 #logo {
-  font-size: 30px;
+  font-size: 32px;
   font-weight: 500;
   color: #333333;
   margin-left: 100px;
   text-decoration: none;
 }
 
-#logo-container {
-    /* width: 25%; */
-    float: left;
-    padding-top: 40px;
-}
-
 #logo_pt2 {
-  font-size: 30px;
+  font-size: 32px;
   font-weight: bold;
   font-style: italic;
   color: #D2AC58;
   text-decoration: none;
+}
+
+#logo-container {
+  float: left;
+  padding-top: 40px;
 }
 
 /* #logo img {
