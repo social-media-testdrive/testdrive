@@ -134,3 +134,72 @@ ol.carousel-indicators li {
     background-color: #D2AC58;
     margin-bottom: 4em;
 }
+
+/*Mobile Format*/
+@media screen and (max-width: 480px) {
+  .navbar-container{
+    display: none;
+  }
+
+  .footer{
+    display: none !important;
+  }
+
+  #intro {
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .caption{
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  .carousel-indicators, #home_graphic {
+    display: none;
+  }
+
+  .carousel-inner{
+    width: 100%;
+  }
+
+  .carousel-text {
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .module-image {
+    max-width: 100%;
+  }
+}
+
+
+/*Tablet Format*/
+@media screen and (max-width: 1024px) {
+
+  .footer{
+    display: none !important;
+  }
+
+  .caption{
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  .carousel-inner{
+    width: 100%;
+  }
+
+  .carousel-content-container{
+    max-width: 100%;
+  }
+  .carousel-text {
+    padding-bottom: 6em;
+    width: 60%;
+  }
+
+}
