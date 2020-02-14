@@ -3,16 +3,21 @@ main {
   text-align: center;
 }
 
-.modules_container {
+.caption{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/*.modules_container {
   display: block;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
-}
+}*/
 
 .moduleBox {
   display: inline-block;
-  width: 500px;
+  /*width: 500px;*/
   height: 500px;
   margin: 2em;
   text-align: center;
