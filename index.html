@@ -2,8 +2,8 @@
 
 <html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- <meta name='twitter:title' content="Social Media TestDrive">
     <meta name='twitter:description' content="Welcome to the Social Media TestDrive official website!">
     <meta name='twitter:image' content='https://dhpd030vnpk29.cloudfront.net/squareLogo.png'>
@@ -34,160 +34,198 @@
 <body>
   <!-- REDUNDANT, DELETE ONCE SERVER SET UP/FIXED -->
   <header>
-    <div id="logo-container">
-      <!-- <a id="logo" href="index.html"><img src="img/logo.png" alt="logo">Social Media TestDrive</a> -->
-      <a id="logo" href="index.html">Test<span id="logo_pt2">Drive</span></a>
-    </div>
-    <div class="navbar-container">
-      <a class="navbar-links" href="about.html">About</a>
-      <a class="navbar-links" href="modules.html">Modules</a>
-      <a class="navbar-links" href="for_educators.html">For Educators</a>
-      <a class="navbar-links" href="for_parents.html">For Parents</a>
-      <!-- <a class="navbar-links" href="faq.html"><p>FAQs</p></a> -->
+    <div class="container-fluid">
+      <div class="row">
+        <div id="logo-container">
+          <!-- <a id="logo" href="index.html"><img src="img/logo.png" alt="logo">Social Media TestDrive</a> -->
+          <a id="logo" href="index.html">Test<span id="logo_pt2">Drive</span></a>
+        </div>
+        <div class="navbar-container">
+          <a class="navbar-links" href="about.html">About</a>
+          <a class="navbar-links" href="modules.html">Modules</a>
+          <a class="navbar-links" href="for_educators.html">For Educators</a>
+          <a class="navbar-links" href="for_parents.html">For Parents</a>
+          <!-- <a class="navbar-links" href="faq.html"><p>FAQs</p></a> -->
+        </div>
+      </div>
     </div>
   </header>
 
   <main>
-   <div id="container">
-    <div class="section1">
-      <div id="intro">
-        <h1>Practice digital literacy through a <span class="gold_accent">social media simulation</span>.</h1>
-        <h4>Social Media TestDrive lets young people practice digital citizenship skills in a simulated, realistic social media environment.</h4>
-        <button id="homePage_button" type="button" onclick="window.location.href = 'modules.html';">View Modules </button>
-      </div>
-      <div id="home_graphic">
-        <img id="home_img" src="img/home.png" alt="home graphic">
+    <div class="section1 container">
+      <div class="row align-items-center">
+        <div id="intro" class="col-sm">
+          <h1>Practice digital literacy through a <span class="gold_accent">social media simulation</span>.</h1>
+          <h4>Social Media TestDrive lets young people practice digital citizenship skills in a simulated, realistic social media environment.</h4>
+          <button id="homePage_button" type="button" onclick="window.location.href = 'modules.html';">View Modules </button>
+        </div>
+        <div id="home_graphic" class="col-sm-6">
+          <img id="home_img" src="img/home.png" alt="home graphic">
+        </div>
       </div>
     </div>
 
-    <div class="section2">
-      <h1>Learn Essential Skills</h1>
-      <p class="caption">Our modules are designed to teach youth about skills for entering
-      social media. Check out a few below!</p>
-
+    <div class="section2 container">
+      <div class="row justify-content-center">
+        <div class="col">
+          <h1>Learn Essential Skills</h1>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-sm-6">
+          <p class="caption">Our modules are designed to teach youth about skills for entering
+          social media. Check out a few below!</p>
+        </div>
+      </div>
     </div>
-    <div id="moduleCarousel" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#moduleCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#moduleCarousel" data-slide-to="1" class="active"></li>
-        <li data-target="#moduleCarousel" data-slide-to="2" class="active"></li>
-        <li data-target="#moduleCarousel" data-slide-to="3" class="active"></li>
-        <li data-target="#moduleCarousel" data-slide-to="4" class="active"></li>
-        <li data-target="#moduleCarousel" data-slide-to="5" class="active"></li>
-      </ol>
 
-      <div class="carousel-inner">
-        <!-- zero -->
-        <div class="carousel-item active">
-          <div class="carousel-content-container">
-            <a href="modules.html">
-              <div class="carousel-text">
-                <h3 class="module-title">Is it Private Information?</h3>
-                <p>This module teaches what is safe to share with different
-                  social media audiences and what kind of information is
-                  inappropriate to share on social media.</p>
-                <button class="module-button" type="button" onclick="window.
-                location.href = 'modules.html';"><span id="button-text">
-                  Launch</span></button>
-              </div>
-              <div class="module-image">
-                <img class="placeholder" src="img/placeholder.png" alt="placeholder">
-              </div>
-            </a>
+      <div id="moduleCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#moduleCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#moduleCarousel" data-slide-to="1" class="active"></li>
+          <li data-target="#moduleCarousel" data-slide-to="2" class="active"></li>
+          <li data-target="#moduleCarousel" data-slide-to="3" class="active"></li>
+          <li data-target="#moduleCarousel" data-slide-to="4" class="active"></li>
+          <li data-target="#moduleCarousel" data-slide-to="5" class="active"></li>
+        </ol>
+        <div class="carousel-inner">
+          <!-- zero -->\
+          <div class="carousel-item active">
+            <div class="carousel-content-container">
+              <a  href="https://app.socialmediatestdrive.org/intro/safe-posting">
+                <div class="row align-items-center">
+                  <div class="col-sm-6 d-flex justify-content-center">
+                    <div class="carousel-text">
+                      <h3 class="module-title">Is it Private Information?</h3>
+                      <p>This module teaches what is safe to share with different
+                        social media audiences and what kind of information is
+                        inappropriate to share on social media.</p>
+                      <button class="module-button" type="button" onclick="window.location.href = 'modules.html';">
+                        <span id="button-text">Launch</span>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 d-flex justify-content-center">
+                    <img class="carousel-moduleImage" src="img/placeholder.png" alt="placeholder">
+                  </div>
+                </div>
+              </a>
+            </div>
           </div>
-        </div>
-        <!-- one -->
-        <div class="carousel-item">
-          <div class="carousel-content-container">
-            <a href="modules.html">
-              <div class="carousel-text">
-                <h3 class="module-title">Shaping Your Digital Footprint</h3>
-                <p>This module teaches how actions on social media create a
-                   digital footprint and skills to positively shape digital
-                   footprints.</p>
-                <button class="module-button" type="button" onclick="window.
-                location.href = 'modules.html';"><span id="button-text">
-                  Launch</span></button>
-              </div>
-              <div class="module-image">
-                <img class="placeholder" src="img/placeholder.png" alt="placeholder">
-              </div>
-            </a>
+          <!-- one -->
+          <div class="carousel-item">
+            <div class="carousel-content-container">
+              <a href="modules.html">
+                <div class="row align-items-center">
+                  <div class="col-sm-6 d-flex justify-content-center">
+                    <div class="carousel-text">
+                      <h3 class="module-title">Shaping Your Digital Footprint</h3>
+                      <p>This module teaches how actions on social media create a
+                         digital footprint and skills to positively shape digital
+                         footprints.</p>
+                      <button class="module-button" type="button" onclick="window.
+                      location.href = 'modules.html';"><span id="button-text">
+                        Launch</span></button>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 d-flex justify-content-center">
+                    <img class="carousel-moduleImage" src="img/placeholder.png" alt="placeholder">
+                  </div>
+                </div>
+
+              </a>
+            </div>
           </div>
-        </div>
-        <!-- two -->
-        <div class="carousel-item">
-          <div class="carousel-content-container">
-            <a href="modules.html">
-              <div class="carousel-text">
-                <h3 class="module-title">Upstanding to Cyberbullying</h3>
-                <p>This module teaches how to detect signs of cyberbullying
-                  and how to respond when seeing cyberbullying happening to
-                  others.</p>
-                <button class="module-button" type="button" onclick="window.
-                location.href = 'modules.html';"><span id="button-text">
-                  Launch</span></button>
-              </div>
-              <div class="module-image">
-                <img class="placeholder" src="img/placeholder.png" alt="placeholder">
-              </div>
-            </a>
+          <!-- two -->
+          <div class="carousel-item">
+            <div class="carousel-content-container">
+              <a href="modules.html">
+                <div class="row align-items-center">
+                  <div class="col-sm-6 d-flex justify-content-center">
+                    <div class="carousel-text">
+                      <h3 class="module-title">Upstanding to Cyberbullying</h3>
+                      <p>This module teaches how to detect signs of cyberbullying
+                        and how to respond when seeing cyberbullying happening to
+                        others.</p>
+                      <button class="module-button" type="button" onclick="window.
+                      location.href = 'modules.html';"><span id="button-text">
+                        Launch</span></button>
+                      </div>
+                    </div>
+                  <div class="col-sm-6 d-flex justify-content-center">
+                    <img class="carousel-moduleImage" src="img/placeholder.png" alt="placeholder">
+                  </div>
+                </div>
+              </a>
+            </div>
           </div>
-        </div>
-        <!-- three -->
-        <div class="carousel-item">
-          <div class="carousel-content-container">
-            <a href="modules.html">
-              <div class="carousel-text">
-                <h3 class="module-title">Online Identities</h3>
-                <p>This module teaches how to manage self-presentation and
-                  how online identities can change with different audiences
-                   on social media.</p>
-                <button class="module-button" type="button" onclick="window.
-                location.href = 'modules.html';"><span id="button-text">
-                  Launch</span></button>
-              </div>
-              <div class="module-image">
-                <img class="placeholder" src="img/placeholder.png" alt="placeholder">
-              </div>
-            </a>
+          <!-- three -->
+          <div class="carousel-item">
+            <div class="carousel-content-container">
+              <a href="modules.html">
+                <div class="row align-items-center">
+                  <div class="col-sm-6 d-flex justify-content-center">
+                    <div class="carousel-text">
+                      <h3 class="module-title">Online Identities</h3>
+                      <p>This module teaches how to manage self-presentation and
+                        how online identities can change with different audiences
+                         on social media.</p>
+                      <button class="module-button" type="button" onclick="window.
+                      location.href = 'modules.html';"><span id="button-text">
+                        Launch</span></button>
+                      </div>
+                    </div>
+                  <div class="col-sm-6 d-flex justify-content-center">
+                    <img class="carousel-moduleImage" src="img/placeholder.png" alt="placeholder">
+                  </div>
+                </div>
+              </a>
+            </div>
           </div>
-        </div>
-        <!-- four -->
-        <div class="carousel-item">
-          <div class="carousel-content-container">
-            <a href="modules.html">
-              <div class="carousel-text">
-                <h3 class="module-title">Social Media Privacy</h3>
-                <p>This module teaches how social media sites collect
-                  information about users and offers strategies for
-                  protecting privacy on social media.</p>
-                <button class="module-button" type="button" onclick="window.
-                location.href = 'modules.html';"><span id="button-text">
-                  Launch</span></button>
-              </div>
-              <div class="module-image">
-                <img class="placeholder" src="img/placeholder.png" alt="placeholder">
-              </div>
-            </a>
+          <!-- four -->
+          <div class="carousel-item">
+            <div class="carousel-content-container">
+              <a href="modules.html">
+                <div class="row align-items-center">
+                  <div class="col-sm-6 d-flex justify-content-center">
+                    <div class="carousel-text">
+                      <h3 class="module-title">Social Media Privacy</h3>
+                      <p>This module teaches how social media sites collect
+                        information about users and offers strategies for
+                        protecting privacy on social media.</p>
+                      <button class="module-button" type="button" onclick="window.
+                      location.href = 'modules.html';"><span id="button-text">
+                        Launch</span></button>
+                      </div>
+                    </div>
+                  <div class="col-sm-6 d-flex justify-content-center">
+                    <img class="carousel-moduleImage" src="img/placeholder.png" alt="placeholder">
+                  </div>
+                </div>
+              </a>
+            </div>
           </div>
-        </div>
-        <!-- five -->
-        <div class="carousel-item">
-          <div class="carousel-content-container">
-            <a href="modules.html">
-              <div class="carousel-text">
-                <h3 class="module-title">News in Social Media</h3>
-                <p>This module teaches why fake news exists and how to
-                  identify the telltale signs of fake news on social media.</p>
-                <button class="module-button" type="button" onclick="window.
-                location.href = 'modules.html';"><span id="button-text">
-                  Launch</span></button>
-              </div>
-              <div class="module-image">
-                <img class="placeholder" src="img/placeholder.png" alt="placeholder">
-              </div>
-            </a>
+          <!-- five -->
+          <div class="carousel-item">
+            <div class="carousel-content-container">
+              <a href="modules.html">
+                <div class="row align-items-center">
+                  <div class="col-sm-6 d-flex justify-content-center">
+                    <div class="carousel-text">
+                      <h3 class="module-title">News in Social Media</h3>
+                      <p>This module teaches why fake news exists and how to
+                        identify the telltale signs of fake news on social media.</p>
+                      <button class="module-button" type="button" onclick="window.
+                      location.href = 'modules.html';"><span id="button-text">
+                        Launch</span></button>
+                      </div>
+                    </div>
+                  <div class="col-sm-6 d-flex justify-content-center">
+                    <img class="carousel-moduleImage" src="img/placeholder.png" alt="placeholder">
+                  </div>
+                </div>
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -200,7 +238,6 @@
         <span class="sr-only">Next</span>
       </a>-->
     </div>
-
   </main>
 
   <footer class="footer">
