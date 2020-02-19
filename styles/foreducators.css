@@ -1,15 +1,3 @@
-.nicelyRoundedButton {
-  background-color: #6EB43F;
-  color: #FFF;
-  width: 270px;
-  height: 60px;
-  border-radius: 30px;
-  cursor: pointer;
-  font-size: 20px;
-  font-weight: 600;
-  border: 0;
-}
-
 .educators_image {
   width:100%;
 }

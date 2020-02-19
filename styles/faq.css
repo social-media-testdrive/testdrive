@@ -1,0 +1,33 @@
+/* Removing bootstrap's default colors */
+.nav-pills .nav-link{
+  border-radius: 0px;
+  color: #333333 ;
+}
+
+/* Customizing active tab appearance */
+.nav-pills .nav-link.active{
+  color: #333333 ;
+  background-color: inherit;
+  border-bottom: 3px solid #2185D0
+}
+
+/* Adding padding to the top and bottom of grid elements */
+.paddedRow, .col-sm-6{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/* Adding padding to the bottom of question titles */
+.questionTitle{
+  padding-bottom: .5em;
+}
+
+/* Adding extra padding inbetween columns when larger than mobile */
+@media (min-width: @screen-sm-min) {
+  .leftSide{
+    padding-right: 30px;
+  }
+  .rightSide{
+    padding-left: 30px;
+  }
+}
