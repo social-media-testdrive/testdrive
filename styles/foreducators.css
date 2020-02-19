@@ -19,7 +19,7 @@
   padding-bottom: 3em;
 }
 
-.col-md-6 {
+.col-md-6, .col-sm-4 {
   padding-top: 15px;
   padding-bottom: 15px;
 }
