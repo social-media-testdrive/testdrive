@@ -1,4 +1,13 @@
-.footer {
+.footer-link{
+  color: #333333;
+}
+
+.footerVerB{
+  padding-top:4em;
+}
+
+
+/* .footer {
   height: 60px;
   flex-shrink: 0;
   background-color: #fff;
@@ -17,4 +26,4 @@
 #footer-links {
   margin-left: 800px;
   color: #333333;
-}
+} */

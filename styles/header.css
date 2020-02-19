@@ -1,7 +1,12 @@
 /* ========== *
  * = Header = *
  * ========== */
-header {
+
+ header{
+   height: auto !important;
+ }
+ 
+/* header {
   height: 120px;
 	flex-shrink: 0;
 	background-color: #F1F8FB;
@@ -47,7 +52,7 @@ header {
 #logo-container {
   float: left;
   padding-top: 40px;
-}
+} */
 
 
 
