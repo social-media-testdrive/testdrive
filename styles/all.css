@@ -1,9 +1,29 @@
 /* ========== *
- * = Global = *
- * ========== */
-/*html * {
+* = Global = *
+* ========== */
+@font-face {
   font-family: Avenir Next;
-}*/
+  src : url('../fonts/Avenir_Next/AvenirNextLTPro-Regular.otf');
+  font-weight: 500;
+}
+
+
+@font-face {
+  font-family: Avenir Next;
+  src : url('../fonts/Avenir_Next/AvenirNextLTPro-Demi.otf');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: Avenir Next;
+  src : url('../fonts/Avenir_Next/AvenirNextLTPro-Bold.otf');
+  font-weight: bold;
+}
+
+
+html * {
+  font-family: Avenir Next;
+}
 
 body {
   margin: auto;
@@ -17,17 +37,17 @@ main {
   flex: 1 0 auto;
 }
 
-h1 {
+h1{
   font-size: 48px;
   font-weight: bold;
   color: #333333;
 }
 
-h2 {
+/* h2 {
   font-size: 32px;
   font-weight: bold;
   color: #333333;
-}
+}*/
 
 h3 {
   font-size: 24px;
@@ -35,12 +55,40 @@ h3 {
   color: #333333;
 }
 
-h4 {
+h4, p {
   font-size: 18px;
-  color: #A9A9A9;
+  color: #545454;
   margin-top: 20px;
   margin-bottom: 40px;
-  line-height: normal;
+  line-height: 1.7;
+  font-weight: 500;
+}
+
+.fancy{
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.fancy-color{
+  font-weight: bold !important;
+  color: #14a1f6 !important;
+  font-style: italic !important;
+}
+
+.nav-item{
+  padding: 0 30px;
+}
+
+.testDriveLogo{
+  margin-left: 30px;
+}
+
+.navbar-brand{
+  padding: 0 15px;
+}
+
+.nav-link{
+  font-weight: 500;
 }
 
 .nicelyRoundedButton {
@@ -62,11 +110,6 @@ h4 {
   line-height: normal;
   text-align: center;
   font-size: 24px;
-}
-
-p {
-  font-size: 18px;
-  color: #333333;
 }
 
 ul {
