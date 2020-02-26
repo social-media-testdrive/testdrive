@@ -334,7 +334,7 @@ h5 {
 
 .Top_PicHalf {
     width: 100%;
-    height: 100%;
+    height: calc(50%);
     float: left;
     background-color: #89CCE2;
     background-position: center;
@@ -357,7 +357,6 @@ h5 {
 #lesson_CyberBullying {
     background-image: url("img/cyberbullyingfinal.png");
     background-color: #d3d3d3;
-    background-position: bottom;
 }
 
 #lesson_News{
@@ -541,11 +540,11 @@ h5 {
       padding-top:1%;
   }
 
-  .Top_PicHalf {
+  /* .Top_PicHalf {
       width: 100%;
-      height: 55%;
+      height: calc(50%) !important;
       background-size: 80%;
-  }
+  } */
 
   .fontbig {
     font-size: 14px;
@@ -557,10 +556,10 @@ h5 {
     width: 24%;
   }
 
-  .Top_PicHalf {
+  /* .Top_PicHalf {
       height: 47%;
       background-size: 80%;
-  }
+  } */
 
   .left_half {
       width: 20%;
@@ -581,7 +580,7 @@ h5 {
   .topnav {
     height: 80px;
   }
-    
+
   .customClassTwo{
     height: 80px;
   }
@@ -625,9 +624,9 @@ h5 {
     font-size: 40px;
   }
 
-  .Top_PicHalf {
+  /* .Top_PicHalf {
     height: 43%;
     background-size: 95%;
-  }
+  } */
 
 }
