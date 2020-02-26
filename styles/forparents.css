@@ -1,5 +1,27 @@
+.educators_image {
+  width:100%;
+}
+
+.paddedRow {
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+.col-md-6, .col-sm-4 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.parents_2 {
+  width: 90%;
+}
+
+.parents_3 {
+  width: 90%;
+}
+
 /*For Parent Page Styling*/
-#forParents_s1 {
+/* #forParents_s1 {
     background-color: #89CCE2;
     height: 260px;
 }
@@ -17,4 +39,4 @@
     background-color: white;
     color: black;
     box-shadow: 5px 5px 10px #2F4F4F;
-}
+} */

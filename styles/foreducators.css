@@ -2,6 +2,10 @@
   width:100%;
 }
 
+.margined-left {
+  margin-left: 20px;
+}
+
 .paddedRow {
   padding-top: 3em;
   padding-bottom: 3em;
