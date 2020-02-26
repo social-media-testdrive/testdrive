@@ -1,12 +1,42 @@
+/* .carousel-control-prev,
+.carousel-control-next{
+    bottom:75%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+  background-color: red;
+} */
+
+.card{
+  border-radius: 30px;
+  width: 100% !important;
+}
+
+.card-img-top{
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+.moduleColumn{
+  padding: 15px 15px;
+}
+
+.card-text{
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+
 /*Modules Page Styling*/
-main {
+/* main {
   text-align: center;
 }
 
 .caption{
   padding-left: 0;
   padding-right: 0;
-}
+} */
 
 /*.modules_container {
   display: block;
@@ -15,9 +45,8 @@ main {
   margin-right: auto;
 }*/
 
-.moduleBox {
+/* .moduleBox {
   display: inline-block;
-  /*width: 500px;*/
   height: 500px;
   margin: 2em;
   text-align: center;
@@ -75,4 +104,4 @@ main {
 
 .Bottom_TextHalf .black, a {
   font-size: 14px;
-}
+} */
