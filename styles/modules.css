@@ -1,12 +1,23 @@
 /* .carousel-control-prev,
 .carousel-control-next{
     bottom:75%;
-}
+}*/
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon{
-  background-color: red;
-} */
+  top : calc(28%);
+  position: relative;
+}
+
+.customCarouselControls{
+  height: 50px;
+  width: 50px;
+  background-color: #6EB43F;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+}
+
 
 .moduleColumn{
   padding: 15px 15px;
