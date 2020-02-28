@@ -43,12 +43,6 @@ h1{
   color: #333333;
 }
 
-/* h2 {
-  font-size: 32px;
-  font-weight: bold;
-  color: #333333;
-}*/
-
 h3 {
   font-size: 24px;
   font-weight: bold;
@@ -62,6 +56,15 @@ h4, p {
   margin-bottom: 40px;
   line-height: 1.7;
   font-weight: 500;
+}
+
+.paddedRow {
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+.paddedTop{
+  padding-top: 3em;
 }
 
 .fancy{
@@ -116,10 +119,10 @@ ul {
 	list-style-type: none;
 }
 
-#underline, #underline2, #underline3, #underline4, #underline5, #underline6 {
+/* #underline, #underline2, #underline3, #underline4, #underline5, #underline6 {
   text-decoration: underline;
   color: blue;
-}
+} */
 
 @media only screen and (max-width: 1665px) {
 
