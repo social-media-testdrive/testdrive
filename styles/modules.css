@@ -23,6 +23,11 @@
   padding: 15px 15px;
 }
 
+.lessonCardLink, .lessonCardLink:hover{
+  color: inherit;
+  text-decoration: none;
+}
+
 .card{
   border-radius: 10px;
   width: 100% !important;
