@@ -76,14 +76,13 @@
   color: white;
 }
 
-.carousel-moduleImage{
-  max-width: 70%;
-  margin: 2em 2em;
+.paddedRow {
+  padding-top: 10em;
+  padding-bottom: 3em;
 }
 
-ol.carousel-indicators li {
-    background-color: #D2AC58;
-    margin-bottom: 4em;
+.home_product1 {
+  max-width: 700px;
 }
 
 /*Mobile Format*/

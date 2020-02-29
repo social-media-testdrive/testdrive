@@ -119,6 +119,20 @@ ul {
 	list-style-type: none;
 }
 
+.margined-left {
+  margin-left: 20px;
+}
+
+.paddedRow {
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+.col-md-6, .col-sm-4 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
 /* #underline, #underline2, #underline3, #underline4, #underline5, #underline6 {
   text-decoration: underline;
   color: blue;
