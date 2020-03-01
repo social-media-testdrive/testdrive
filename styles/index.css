@@ -81,8 +81,26 @@
   padding-bottom: 3em;
 }
 
+.paddedLeft {
+  padding-left: 5em;
+}
+
 .home_product1 {
-  max-width: 700px;
+  max-width: 650px;
+}
+
+.home_product2 {
+  max-width: 650px;
+  padding-right: 5em;
+  padding-bottom: 3em;
+}
+
+.home_educators {
+  width: 100%;
+}
+
+.home_parents {
+  width: 100%;
 }
 
 /*Mobile Format*/
