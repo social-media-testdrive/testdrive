@@ -13,8 +13,8 @@
 
 /* Adding padding to the top and bottom of grid elements */
 .paddedRow, .col-sm-6{
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
 }
 
 /* Adding padding to the bottom of question titles */
@@ -23,11 +23,11 @@
 }
 
 /* Adding extra padding inbetween columns when larger than mobile */
-@media (min-width: @screen-sm-min) {
+@media (min-width: 768px) {
   .leftSide{
-    padding-right: 30px;
+    padding-right: 30px !important;
   }
   .rightSide{
-    padding-left: 30px;
+    padding-left: 30px !important;
   }
 }

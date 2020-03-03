@@ -58,6 +58,34 @@ h4, p {
   font-weight: 500;
 }
 
+/* button{
+  height: 70px;
+  width: 250px;
+  margin-right: 0px;
+  color: #FFF;
+  border-radius: 20px;
+  z-index: 1000;
+  font-size: 20px;
+  line-height: 2;
+  position: relative;
+  border: 0;
+} */
+
+
+.nicelyRoundedButton {
+  background-color: #14A1F6;
+  color: #FFF;
+  z-index: 1000;
+  width: 250px;
+  height: 60px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 2;
+  font-weight: 600;
+  border: 0;
+}
+
 .paddedRow {
   padding-top: 3em;
   padding-bottom: 3em;
@@ -94,7 +122,7 @@ h4, p {
   font-weight: 500;
 }
 
-.nicelyRoundedButton {
+/* .nicelyRoundedButton {
   background-color: #14A1F6;
   color: #FFF;
   width: 270px;
@@ -104,7 +132,7 @@ h4, p {
   font-size: 20px;
   font-weight: 600;
   border: 0;
-}
+} */
 
 .caption {
   padding-top: 1em;
@@ -119,13 +147,9 @@ ul {
 	list-style-type: none;
 }
 
-.margined-left {
-  margin-left: 20px;
-}
-
 .paddedRow {
-  padding-top: 3em;
-  padding-bottom: 3em;
+  /* padding-top: 3em; */
+  padding-bottom: 6em;
 }
 
 .col-md-6, .col-sm-4 {
@@ -133,70 +157,13 @@ ul {
   padding-bottom: 15px;
 }
 
-/* #underline, #underline2, #underline3, #underline4, #underline5, #underline6 {
-  text-decoration: underline;
-  color: blue;
-} */
-
-@media only screen and (max-width: 1665px) {
-
-  #logo {
-      font-size: 25px;
+/* Adding extra padding inbetween columns when larger than mobile */
+@media (min-width: 768px) {
+  .margined-left {
+    padding-left: 20px;
   }
 
-  #linksCont {
-    margin-left: 10%;
-    padding-right: 0%;
-  }
-}
-
-@media only screen and (max-width: 1359px) {
-  #logo img {
-    width: 24%;
-  }
-
-  .Top_PicHalf {
-      height: 47%;
-      background-size: 80%;
-  }
-}
-
-@media only screen and (max-width: 1200px) {
-  .topnav {
-    height: 80px;
-  }
-
-  #logo {
-    font-size: 18px;
-  }
-
-  #logo img {
-    width: 30%;
-  }
-
-  #linksCont {
-      width: 75%;
-  }
-
-  .links {
-    font-size: 14px;
-  }
-
-  .right_half h1 {
-    font-size: 41px;
-    margin-top: 40px;
-  }
-
-  .right_half h4 {
-    font-size: 17px;
-  }
-
-  .lessonheader h1 {
-    font-size: 40px;
-  }
-
-  .Top_PicHalf {
-    height: 43%;
-    background-size: 95%;
+  .margined-right {
+    padding-right: 20px;
   }
 }

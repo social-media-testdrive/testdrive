@@ -2,15 +2,6 @@
   width:100%;
 }
 
-.margined-left {
-  margin-left: 20px;
-}
-
-.paddedRow {
-  padding-top: 3em;
-  padding-bottom: 3em;
-}
-
 .col-md-6, .col-sm-4 {
   padding-top: 15px;
   padding-bottom: 15px;
