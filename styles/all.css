@@ -58,18 +58,27 @@ h4, p {
   font-weight: 500;
 }
 
-/* button{
-  height: 70px;
-  width: 250px;
-  margin-right: 0px;
-  color: #FFF;
-  border-radius: 20px;
-  z-index: 1000;
-  font-size: 20px;
-  line-height: 2;
-  position: relative;
-  border: 0;
-} */
+.termsRow{
+  padding: 0 46px;
+}
+
+.termsSubheader{
+  width:100%;
+  padding-bottom: 1em;
+  margin: 0;
+}
+
+.termsSubheader2{
+  width:100%;
+  padding-top:2em;
+  padding-bottom:1em;
+  margin: 0;
+}
+
+.termsParagraph{
+  margin: 1em 0px !important;
+}
+
 .footerRow{
   padding: 1em 0;
 }
