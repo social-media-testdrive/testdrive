@@ -80,7 +80,7 @@ h4, p {
 }
 
 .footerRow{
-  padding: 1em 0;
+  padding: 1em 0px;
 }
 
 .footerLeftItem{
@@ -191,5 +191,9 @@ ul {
 
   .margined-right {
     padding-right: 20px;
+  }
+
+  .footerRow{
+    padding: 1em 34px !important;
   }
 }
