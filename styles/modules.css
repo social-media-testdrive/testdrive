@@ -51,7 +51,7 @@
 }
 
 .moduleCardTitle{
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
   color: white;
 }
@@ -66,7 +66,11 @@
 }
 
 .card-text{
-  font-size: 16px;
+  font-size: 18px;
   line-height: 24px;
   font-weight: 500;
+}
+
+.card-text-csAlignment{
+  font-size: 12px !important;
 }
