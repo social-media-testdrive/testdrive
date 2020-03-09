@@ -1,23 +1,30 @@
-/* .carousel-control-prev,
-.carousel-control-next{
-    bottom:75%;
-}*/
+/* Pagination */
 
-.carousel-control-prev-icon,
-.carousel-control-next-icon{
-  top : calc(28%);
-  position: relative;
-}
-
-.customCarouselControls{
-  height: 50px;
+.page-item:first-child .page-link, .page-item:last-child .page-link {
   width: 50px;
-  background-color: #14A1F6;
-  border-radius: 50%;
-  display: inline-block;
+  height: 50px;
+  border-radius: 2rem;
   text-align: center;
+  margin: 0px 60px;
+  background-color: #14A1F6;
+  border: 0;
 }
 
+.page-link span{
+  margin: 10px 0px;
+  color: white;
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 25px;
+}
+
+.pageBlankOf{
+  margin: 10px 0px;
+  font-weight: 500;
+  color: #545454;
+}
+
+/* Module Cards */
 
 .moduleColumn{
   padding: 15px 15px;
