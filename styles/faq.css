@@ -1,7 +1,12 @@
+.questionContainer{
+  padding: 0;
+}
+
 /* Removing bootstrap's default colors */
 .nav-pills .nav-link{
   border-radius: 0px;
   color: #333333 ;
+  padding: 8px 0;
 }
 
 /* Customizing active tab appearance */
@@ -9,6 +14,15 @@
   color: #333333 ;
   background-color: inherit;
   border-bottom: 3px solid #2185D0
+}
+
+.navPillRow{
+  border-bottom: 1px solid #DCDCDC;
+  padding: 0 16px;
+}
+
+#pills-tab{
+  margin: 0 !important;
 }
 
 /* Adding padding to the top and bottom of grid elements */

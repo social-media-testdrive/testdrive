@@ -184,17 +184,20 @@ ul {
 .col-md-6, .col-sm-4 {
   padding-top: 15px;
   padding-bottom: 15px;
+  padding-left: 46px;
+  padding-right: 46px;
+
 }
 
 /* Adding extra padding inbetween columns when larger than mobile */
 @media (min-width: 768px) {
-  .margined-left {
+  /* .margined-left {
     padding-left: 20px;
   }
 
   .margined-right {
     padding-right: 20px;
-  }
+  } */
 
   .footerRow{
     padding: 1em 31px !important;
