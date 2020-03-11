@@ -1,0 +1,35 @@
+.teamPageTitleRow{
+  padding-top: 3em;
+  padding-bottom: 0;
+}
+
+.teamPageTitleText{
+  padding-top: 0;
+  padding-bottom: 20px;
+  margin-bottom: 0;
+}
+
+.teamSubtitle{
+  padding: 0 !important;
+}
+
+.teamSubheader{
+  width:100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0;
+}
+
+.teamText{
+  margin: 0px !important;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.teamRow{
+  padding: 0px 26px !important;
+}
+
+.addColumnPadding{
+  padding: 0 20px;
+}
