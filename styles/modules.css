@@ -5,9 +5,13 @@
 /* Pagination */
 
 .page-item:first-child .page-link, .page-item:last-child .page-link {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 50px;
   height: 50px;
-  border-radius: 2rem;
+  border-radius: 100%;
   text-align: center;
   margin: 0px 60px;
   background-color: #14A1F6;
@@ -15,7 +19,8 @@
 }
 
 .page-link span{
-  margin: 10px 0px;
+  height: 50px;
+  margin: 0px 0px;
   color: white;
   font-size: 56px;
   font-weight: 600;
@@ -23,6 +28,8 @@
 }
 
 .pageBlankOf{
+  display: inline-flex;
+  align-items: center;
   margin: 10px 0px;
   font-weight: 500;
   color: #545454;
