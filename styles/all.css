@@ -58,85 +58,16 @@ h4, p {
   font-weight: 500;
 }
 
+ul {
+	list-style-type: none;
+}
+
 /* for pages that are linked in the footer */
 .footerPageTitle{
   padding-top:3em;
   padding-bottom:15px;
   padding-left: 1em;
   padding-right: 1em;
-}
-
-/* media and press page */
-.pressItemContainer{
-  background-color: white;
-  margin: 30px;
-}
-
-.pressLeftContainer{
-  padding: 30px 40px;
-}
-
-.pressText{
-  padding-top: 10px !important;
-  padding-bottom: 10px !important;
-  margin: 0;
-}
-
-.pressLogoContainer{
-  padding: 40px;
-  position: relative;
-}
-
-.pressLogo{
-  width: 100%;
-}
-
-/* header */
-.nav-item{
-  padding: 0 30px;
-}
-
-.testDriveLogo{
-  margin-left: 30px;
-}
-
-.fancy{
-  font-size: 36px;
-  font-weight: 500;
-}
-
-.brand{
-  font-weight: bold !important;
-  color: #14a1f6 !important;
-  font-style: italic !important;
-}
-
-.navbar-brand{
-  padding: 0 15px;
-}
-
-.nav-link{
-  font-weight: 500;
-}
-
-/* footer  */
-.footerRow{
-  padding: 1em 0px;
-}
-
-.footerLeftItem{
-  margin: 0px;
-}
-
-.footerButton{
-  background-color: #14A1F6;
-  color: #FFF;
-  z-index: 1000;
-  cursor: pointer;
-  font-size: 1rem;
-  font-weight: 500;
-  border: 0;
-  padding: 5px 15px;
 }
 
 /* other */
@@ -170,10 +101,6 @@ h4, p {
   line-height: normal;
   text-align: center;
   font-size: 24px;
-}
-
-ul {
-	list-style-type: none;
 }
 
 .paddedRow {

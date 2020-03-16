@@ -6,32 +6,33 @@
    height: auto !important;
  }
 
-/* header {
-  height: 120px;
-	flex-shrink: 0;
-	background-color: #F1F8FB;
+.nav-item{
+ padding: 0 30px;
 }
 
-.navbar-container {
-	margin-left: auto;
-	margin-right: 50px;
-	float: right;
-  width: 50%;
+.testDriveLogo{
+ margin-left: 30px;
 }
 
-.navbar-links {
-    float: left;
-    color: #A9A9A9;
-    font-size: 18px;
-    width: 20%;
-    margin: 50px 0px -30px 30px;
+.fancy{
+ font-size: 36px;
+ font-weight: 500;
 }
 
-.navbar-links:hover {
-    text-decoration: none;
-		color: #333333;
-    /* font-weight: bold; */
+.brand{
+ font-weight: bold !important;
+ color: #14a1f6 !important;
+ font-style: italic !important;
 }
+
+.navbar-brand{
+ padding: 0 15px;
+}
+
+.nav-link{
+ font-weight: 500;
+}
+
 
 #logo {
   font-size: 32px;
@@ -48,17 +49,3 @@
   color: #D2AC58;
   text-decoration: none;
 }
-
-#logo-container {
-  float: left;
-  padding-top: 40px;
-} */
-
-
-
-/* #logo img {
-  width:100px;
-  height:auto;
-  padding-bottom:6px;
-  vertical-align: middle;
-} */
