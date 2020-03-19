@@ -4,6 +4,7 @@
 
 /* Removing bootstrap's default colors */
 .nav-pills .nav-link{
+  font-size: 18px;
   border-radius: 0px;
   color: #333333 ;
   padding: 8px 0;
