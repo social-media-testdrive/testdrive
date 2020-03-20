@@ -1,0 +1,94 @@
+.carouselColumn{
+  padding: 0 46px;
+}
+
+/* Pagination */
+
+.page-item:first-child .page-link, .page-item:last-child .page-link {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  text-align: center;
+  margin: 0px 60px;
+  background-color: #14A1F6;
+  border: 0;
+}
+
+.page-link span{
+  height: 50px;
+  margin: 0px 0px;
+  color: white;
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 25px;
+}
+
+.pageBlankOf{
+  display: inline-flex;
+  align-items: center;
+  margin: 10px 0px;
+  font-weight: 500;
+  color: #545454;
+}
+
+/* Module Cards */
+
+.moduleColumn{
+  padding: 15px 15px;
+}
+
+.lessonCardLink, .lessonCardLink:hover{
+  color: inherit;
+  text-decoration: none;
+}
+
+.card{
+  border-radius: 10px;
+  width: 100% !important;
+  margin: 0 0 !important;
+}
+
+.cardImgContainer{
+  padding: 0 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.card-img-top{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card-img-overlay{
+  background-image: linear-gradient(#ffffff00 55%, #000000)!important;
+  padding: 1rem;
+}
+
+.moduleCardTitle{
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.moduleCardTitle{
+  position: absolute;
+  bottom: 0px;
+}
+
+.card-body{
+  padding: 1rem;
+}
+
+.card-text{
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.card-text-csAlignment{
+  font-size: 12px !important;
+}

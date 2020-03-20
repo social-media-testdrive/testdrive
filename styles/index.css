@@ -1,0 +1,84 @@
+.section1 {
+    background-color: #F1F8FB;
+    padding-bottom: 4em;
+    align-items: center;
+    /*width: 100%;*/
+    /*float: left;*/
+ }
+
+.section2 {
+    background-color: #F1F8FB;
+    text-align: center;
+    /*padding-top: 4em;
+    width:100%;
+    float: left;*/
+}
+
+.trioImage{
+  max-width:100%;
+}
+
+.trioTitle{
+  font-size: 36px;
+  padding-top:1em;
+}
+
+.trioSubtitle{
+  padding-left: 30px;
+  padding-right:30px;
+}
+
+.caption{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* Screen Reader */
+.sr-only {
+  color: #000;
+}
+
+/* STYLE */
+.blue_accent {
+  color:#14A1F6;
+}
+
+/* images */
+#home_img {
+  max-width: 100%;
+  height: auto;
+}
+
+.module-title {
+  margin-bottom: 20px;
+}
+
+.module-button {
+  background-color: #489BFF;
+  width: 200px;
+  height: 60px;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 1em;
+}
+
+#button-text {
+  color: white;
+}
+
+.home_product1 {
+  max-width: 100%;
+}
+
+.home_product2 {
+  max-width: 100%;
+}
+
+.home_educators {
+  width: 100%;
+}
+
+.home_parents {
+  width: 70%;
+}

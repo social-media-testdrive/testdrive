@@ -1,0 +1,27 @@
+.footer-link{
+  padding-right: 8px;
+  color: #4b4b4b;
+}
+
+.footerVerB{
+  padding-top:4em;
+}
+
+.footerRow{
+  padding: 1em 0px;
+}
+
+.footerLeftItem{
+  margin: 0px;
+}
+
+.footerButton{
+  background-color: #14A1F6;
+  color: #FFF;
+  z-index: 1000;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+  border: 0;
+  padding: 5px 15px;
+}

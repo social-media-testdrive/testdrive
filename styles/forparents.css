@@ -1,0 +1,37 @@
+.educators_image {
+  width:100%;
+}
+
+.col-md-6, .col-sm-4 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.parents_2 {
+  width: 90%;
+}
+
+.parents_3 {
+  width: 90%;
+}
+
+/*For Parent Page Styling*/
+/* #forParents_s1 {
+    background-color: #89CCE2;
+    height: 260px;
+}
+
+#forParents_button {
+    background-color: #89CCE2;
+    cursor: pointer;
+}
+
+.forparents_lessons {
+    width: 29%;
+    margin: 5% 2%;
+    height: 350px;
+    float: left;
+    background-color: white;
+    color: black;
+    box-shadow: 5px 5px 10px #2F4F4F;
+} */

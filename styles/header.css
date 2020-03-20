@@ -1,0 +1,51 @@
+/* ========== *
+ * = Header = *
+ * ========== */
+
+ header{
+   height: auto !important;
+ }
+
+.nav-item{
+ padding: 0 30px;
+}
+
+.testDriveLogo{
+ margin-left: 30px;
+}
+
+.fancy{
+ font-size: 36px;
+ font-weight: 500;
+}
+
+.brand{
+ font-weight: bold !important;
+ color: #14a1f6 !important;
+ font-style: italic !important;
+}
+
+.navbar-brand{
+ padding: 0 15px;
+}
+
+.nav-link{
+ font-weight: 500;
+}
+
+
+#logo {
+  font-size: 32px;
+  font-weight: 500;
+  color: #333333;
+  margin-left: 100px;
+  text-decoration: none;
+}
+
+#logo_pt2 {
+  font-size: 32px;
+  font-weight: bold;
+  font-style: italic;
+  color: #D2AC58;
+  text-decoration: none;
+}

@@ -1,0 +1,132 @@
+/* ========== *
+* = Global = *
+* ========== */
+@font-face {
+  font-family: Avenir Next;
+  src : url('../fonts/Avenir_Next/AvenirNextLTPro-Regular.otf');
+  font-weight: 500;
+}
+
+
+@font-face {
+  font-family: Avenir Next;
+  src : url('../fonts/Avenir_Next/AvenirNextLTPro-Demi.otf');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: Avenir Next;
+  src : url('../fonts/Avenir_Next/AvenirNextLTPro-Bold.otf');
+  font-weight: bold;
+}
+
+
+html * {
+  font-family: Avenir Next;
+}
+
+body {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #F1F8FB;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+h1{
+  font-size: 48px;
+  font-weight: bold;
+  color: #333333;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333333;
+}
+
+h4, p {
+  font-size: 18px;
+  color: #545454;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  line-height: 1.7;
+  font-weight: 500;
+}
+
+ul {
+	list-style-type: none;
+}
+
+/* for pages that are linked in the footer */
+.footerPageTitle{
+  padding-top:3em;
+  padding-bottom:15px;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+/* other */
+.nicelyRoundedButton {
+  background-color: #14A1F6;
+  color: #FFF;
+  z-index: 1000;
+  width: 250px;
+  height: 60px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 2;
+  font-weight: 600;
+  border: 0;
+}
+
+.paddedRow {
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+.paddedTop{
+  padding-top: 3em;
+}
+
+.caption {
+  padding-top: 1em;
+  padding-left: 16em;
+  padding-right: 16em;
+  line-height: normal;
+  text-align: center;
+  font-size: 24px;
+}
+
+.paddedRow {
+  /* padding-top: 3em; */
+  padding-bottom: 6em;
+}
+
+.col-md-6, .col-sm-4 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 46px;
+  padding-right: 46px;
+
+}
+
+/* Adding extra padding inbetween columns when larger than mobile */
+@media (min-width: 768px) {
+  /* .margined-left {
+    padding-left: 20px;
+  }
+
+  .margined-right {
+    padding-right: 20px;
+  } */
+
+  .footerRow{
+    padding: 1em 31px !important;
+  }
+}
