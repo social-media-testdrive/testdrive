@@ -49,6 +49,7 @@
 .card{
   border-radius: 10px;
   width: 100% !important;
+  height: 100%;
   margin: 0 0 !important;
 }
 
@@ -72,11 +73,15 @@
   font-size: 20px;
   font-weight: bold;
   color: white;
-}
-
-.moduleCardTitle{
   position: absolute;
   bottom: 0px;
+  line-height: 1.5;
+}
+
+.newTag{
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #14a1f6;
 }
 
 .card-body{
@@ -91,4 +96,30 @@
 
 .card-text-csAlignment{
   font-size: 12px !important;
+}
+
+
+@media (min-width: 576px) {
+  .tempModuleRows{
+    padding-bottom: 40px;
+    padding-left: 31px;
+    padding-right: 31px;
+  }
+
+  .tempModuleColumns{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media (max-width: 576px) {
+  .tempModuleRows{
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .tempModuleColumns{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
