@@ -98,8 +98,8 @@
   font-size: 12px !important;
 }
 
-
-@media (min-width: 576px) {
+/* For tablets or larger */
+@media (min-width: 768px) {
   .tempModuleRows{
     padding-bottom: 40px;
     padding-left: 31px;
@@ -112,7 +112,8 @@
   }
 }
 
-@media (max-width: 576px) {
+/* For phones or smaller */
+@media (max-width: 767.98px) {
   .tempModuleRows{
     padding-left: 0;
     padding-right: 0;

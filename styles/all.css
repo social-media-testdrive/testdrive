@@ -113,20 +113,22 @@ ul {
   padding-bottom: 15px;
   padding-left: 46px;
   padding-right: 46px;
-
 }
 
-/* Adding extra padding inbetween columns when larger than mobile */
+.listServSubtext{
+  margin-bottom: 20px;
+}
+
+/* Adding extra padding when tablet or larger */
 @media (min-width: 768px) {
-  /* .margined-left {
-    padding-left: 20px;
-  }
-
-  .margined-right {
-    padding-right: 20px;
-  } */
-
   .footerRow{
     padding: 1em 31px !important;
+  }
+}
+
+/* Aligning nav items right when smaller than desktop (992px) */
+@media (max-width: 991.98px) {
+  .nav-link{
+    text-align: right;
   }
 }
