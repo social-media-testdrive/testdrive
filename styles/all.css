@@ -71,6 +71,10 @@ ul {
 }
 
 /* other */
+.customHyperlink{
+  /* can add a color here */
+}
+
 .nicelyRoundedButton {
   background-color: #14A1F6;
   color: #FFF;
