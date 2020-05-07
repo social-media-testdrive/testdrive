@@ -13,6 +13,12 @@
   margin: 0;
 }
 
+a p.pressText{
+  text-decoration: underline;
+  cursor: pointer;
+  color: #0093EC; 
+}
+
 .pressLogoContainer{
   padding: 40px;
   position: relative;

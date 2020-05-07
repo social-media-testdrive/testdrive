@@ -14,7 +14,7 @@
   border-radius: 100%;
   text-align: center;
   margin: 0px 60px;
-  background-color: #14A1F6;
+  background-color: #0093EC;
   border: 0;
 }
 
@@ -81,11 +81,15 @@
 .newTag{
   font-size: 20px;
   font-weight: bold;
-  background-color: #14a1f6;
+  background-color: #0093EC;
 }
 
 .card-body{
   padding: 1rem;
+}
+
+span.card-text{
+  cursor: default;
 }
 
 .card-text{
@@ -96,6 +100,9 @@
 
 .card-text-csAlignment{
   font-size: 12px !important;
+  cursor: default;
+  color: #333333;
+  margin: 0;
 }
 
 /* For tablets or larger */
