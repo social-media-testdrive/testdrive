@@ -1,0 +1,25 @@
+.webinarUnorderedList{
+  list-style-type: disc !important;
+  font-size: 18px;
+  color: #545454;
+  margin-top: 20px;
+  line-height: 1.7;
+  font-weight: 500;
+  cursor: default;
+}
+
+.webinarButton {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Removing margins/padding when smaller than mobile */
+@media (max-width: 768px) {
+  .pressItemContainer{
+    margin: 30px 10px !important;
+  }
+
+  .pressItemContainer .pressLeftContainer, .pressItemContainer .pressLogoContainer  {
+    padding: 20px !important;
+  }
+}
