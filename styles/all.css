@@ -107,6 +107,10 @@ main a {
   padding-top: 3em;
 }
 
+.addPaddingBottom{
+  padding-bottom: 2em;
+}
+
 .caption {
   padding-top: 1em;
   padding-left: 16em;
