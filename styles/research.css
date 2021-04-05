@@ -1,0 +1,14 @@
+.researchRow{
+  padding: 0 46px;
+}
+
+.researchSectionTitle{
+  width:100%;
+  padding-top:1em;
+  padding-bottom:1em;
+  margin: 0;
+}
+
+.researchParagraph{
+  margin: 1em 0px !important;
+}
