@@ -1,41 +1,19 @@
-/* Recruitment banner */
+/* Adjustments to announcement banner */
 
-.recruitmentBanner {
-  margin: 30px 30px 0 30px;
-  background-color: white;
-  min-height: 100px;
-}
-
-.recruitmentBanner p {
-  color: #E94B68;
-  margin-bottom: 20px;
-}
-
-.recruitmentBanner .topLeftCircle {
-  z-index: 1;
-  position: absolute;
+.announcementBanner .topLeftCircle {
   top: -22px;
-  left: -22px;
 }
 
-.recruitmentBanner .topLeftIcon {
-  z-index: 2;
-  position: absolute;
+.announcementBanner .topLeftIcon {
   top: -11px;
-  left: -14px;
-  transform: rotate(0.9turn);
 }
 
-.recruitmentBanner .boldText {
-  font-weight: bold;
+.announcementBanner p {
+  font-size: 18px;
 }
 
-.recruitmentBanner .largeText {
+.announcementBanner .largeText {
   font-size: 22px;
-}
-
-.recruitmentBanner .italicText {
-  font-style: italic;
 }
 
 /* Educators Page */
