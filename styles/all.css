@@ -71,6 +71,11 @@ main a {
   cursor: pointer;
 }
 
+/* general use classes */
+.pageSectionTitle {
+  padding-top: 3em;
+}
+
 /* for pages that are linked in the footer */
 .footerPageTitle{
   padding-top:3em;

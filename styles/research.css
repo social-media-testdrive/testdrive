@@ -1,14 +1,14 @@
-.researchRow{
-  padding: 0 46px;
+.researchRow {
+  padding: 3em 46px 15px 46px;
 }
 
-.researchSectionTitle{
+.researchSectionTitle {
   width:100%;
   padding-top:1em;
   padding-bottom:1em;
   margin: 0;
 }
 
-.researchParagraph{
+.researchParagraph {
   margin: 1em 0px !important;
 }
