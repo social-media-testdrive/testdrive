@@ -1,0 +1,25 @@
+/* STYLE */
+.blue_accent {
+    color:#0093EC;
+  }
+  
+/* images */
+
+/* for donate3.html: car svg*/
+#donate_img_3 {
+    max-width: 80%;
+    height: auto;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+ /* for donate.html: pig svg*/
+#donate_img_1{
+    max-width: 100%;
+    height: auto;
+}
+
+#donate_graphic {
+    display: flex;
+    justify-content: center;
+}
