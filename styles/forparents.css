@@ -19,6 +19,12 @@
   width: 100%;
 }
 
+.smtd_vid_caption{
+  text-align: center;
+  font-size: small;
+  margin: 0px;
+}
+
 /*For Parent Page Styling*/
 /* #forParents_s1 {
     background-color: #89CCE2;
