@@ -5,6 +5,11 @@
   
 /* images */
 
+#donate_img_1{
+    max-width: 90%;
+    height: auto;
+}
+
 /* for donate3.html: car svg*/
 #donate_img_3 {
     max-width: 80%;
@@ -14,10 +19,10 @@
 }
 
  /* for donate.html: pig svg*/
-#donate_img_1{
+/* #donate_img_1{
     max-width: 100%;
     height: auto;
-}
+} */
 
 #donate_graphic {
     display: flex;
