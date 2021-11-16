@@ -1,49 +1,56 @@
 /* STYLE */
-.blue_accent {
-    color:#0093EC;
-  }
-  
-/* images */
 
-#donate_img_1{
-    max-width: 90%;
-    height: auto;
+.blue_accent {
+    color: #0093EC;
 }
 
-/* for donate3.html: car svg*/
-#donate_img_3 {
-    max-width: 80%;
-    height: auto;
-    padding-top: 2em;
+.donationRow {
+    padding-top: 3em;
     padding-bottom: 2em;
 }
 
- /* for donate.html: pig svg*/
-/* #donate_img_1{
-    max-width: 100%;
-    height: auto;
-} */
+.col-md-7, .col-md-5 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+/* images */
 
 #donate_graphic {
     display: flex;
     justify-content: center;
 }
 
+#donate_img {
+    max-width: 100%;
+    height: auto;
+}
+
+.donation_logos {
+    margin: 10px 40px 50px 0px;
+}
+
 .donationButton {
     background-color: #0093EC;
     color: #FFF;
     z-index: 1000;
-    width: 320px;
+    width: 300px;
     height: 80px;
-    border-radius: 30px;
+    border-radius: 40px;
     cursor: pointer;
     font-size: 20px;
-    line-height: 1.5;
+    line-height: 1.2;
     font-weight: 600;
     border: 0;
-  }
+}
 
-  .donationButton-text{
-      font-size: 15px;
-      margin: 0px;
-  }
+.donationButton-text {
+    font-size: 15px;
+    margin: 0px;
+}
+
+.avoidWrap {
+    white-space: nowrap;
+}
