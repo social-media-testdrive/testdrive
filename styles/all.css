@@ -44,6 +44,13 @@ h1{
   cursor: default;
 }
 
+h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333333;
+  cursor: default;
+}
+
 h3 {
   font-size: 24px;
   font-weight: bold;

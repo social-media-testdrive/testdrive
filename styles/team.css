@@ -28,8 +28,21 @@
 
 .teamRow{
   padding: 0px 26px !important;
+  margin: 0px !important;
 }
 
 .addColumnPadding{
   padding: 0 20px;
+}
+
+.addRowMargin{
+  margin: 20px 0px;
+}
+
+.col-sm-4 {
+  padding: 15px;
+}
+
+.italicText{
+  font-style: italic;
 }
