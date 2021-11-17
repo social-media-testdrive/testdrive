@@ -46,3 +46,15 @@
 .italicText{
   font-style: italic;
 }
+
+.noDecorationText {
+   text-decoration: none;
+}
+
+.noDecoText, .noDecoText:hover, .noDecoText:active{
+  text-decoration: none;
+}
+
+.hyperlinkBlue{
+  color: #0093EC;
+}
