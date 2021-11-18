@@ -47,11 +47,7 @@
   font-style: italic;
 }
 
-.noDecorationText {
-   text-decoration: none;
-}
-
-.noDecoText, .noDecoText:hover, .noDecoText:active{
+.noDecorationText, .noDecorationText:hover, .noDecorationText:active {
   text-decoration: none;
 }
 

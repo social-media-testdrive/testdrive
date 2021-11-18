@@ -20,8 +20,8 @@
 }
 
 .nav-item-test{
-  /* padding: 0 30px; */
- padding: 0 15px;
+  padding: 0 30px;
+ /* padding: 0 15px; */
  white-space: nowrap;
 }
 
@@ -63,4 +63,14 @@
   font-style: italic;
   color: #D2AC58;
   text-decoration: none;
+}
+
+.alignItemsCenter{
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.donationHeart{
+  margin: 0px 5px;
 }
