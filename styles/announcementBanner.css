@@ -19,6 +19,15 @@
   transform: rotate(0.9turn);
 }
 
+.announcementBanner .md-img {
+  /* margin-right: 20px; */
+  margin: 20px 20px 20px 0px;
+}
+
+.announcementBanner .sm-img {
+  margin: 20px 20px 0px 0px;
+}
+
 .announcementBanner p {
   color: #E94B68;
   margin-bottom: 20px;
