@@ -1,14 +1,22 @@
 .researchRow {
-  padding: 3em 46px 15px 46px;
+    padding: 3em 46px 15px 46px;
 }
 
 .researchSectionTitle {
-  width:100%;
-  padding-top:1em;
-  padding-bottom:1em;
-  margin: 0;
+    width: 100%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin: 0;
+    display: flex;
+    align-items: center;
 }
 
 .researchParagraph {
-  margin: 1em 0px !important;
+    margin: 1em 0px !important;
+}
+
+.upcomingTag {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #0093EC !important;
 }
