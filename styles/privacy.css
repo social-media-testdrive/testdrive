@@ -1,0 +1,40 @@
+.footerPageTitle {
+    text-align: center;
+}
+
+.privacyRow {
+    padding: 0 46px;
+}
+
+.privacySubheader {
+    width: 100%;
+    padding-bottom: 0.25em;
+    margin: 0;
+}
+
+.privacySubheader2 {
+    width: 100%;
+    padding-top: 1em;
+    padding-bottom: 0.25em;
+    margin: 0;
+}
+
+.privacySubSubheader {
+    width: 100%;
+    font-weight: bold;
+    margin: 0;
+}
+
+.privacyParagraph {
+    margin: 1em 0px !important;
+}
+
+.noDecorationText,
+.noDecorationText:hover,
+.noDecorationText:active {
+    text-decoration: none;
+}
+
+.boldText {
+    font-weight: bold;
+}
