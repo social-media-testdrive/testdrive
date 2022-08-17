@@ -45,3 +45,7 @@
 .announcementBanner .italicText {
     font-style: italic;
 }
+
+.announcementBanner .underlineText {
+    text-decoration: underline;
+}
