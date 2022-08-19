@@ -31,7 +31,8 @@
 .announcementBanner p {
     color: #E94B68;
     margin-bottom: 20px;
-    font-size: 22px;
+    /* font-size: 22px; */
+    font-size: 21px;
 }
 
 .announcementBanner .boldText {
@@ -39,7 +40,8 @@
 }
 
 .announcementBanner .largeText {
-    font-size: 28px;
+    /* font-size: 28px; */
+    font-size: 26px;
 }
 
 .announcementBanner .italicText {
