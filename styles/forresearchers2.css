@@ -1,0 +1,16 @@
+.researchRow {
+    padding: 3em 46px 15px 46px;
+}
+
+.researchParagraph {
+    margin: 1em 0px !important;
+}
+
+.paddedRow-small {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+.nicelyRoundedButton-large {
+    margin-bottom: 40px;
+}
