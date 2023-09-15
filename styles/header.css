@@ -2,70 +2,69 @@
  * = Header = *
  * ========== */
 
- header{
-   height: auto !important;
- }
-
-.logoLinkContainer{
-  display: contents;
+header {
+    height: auto !important;
 }
 
-.logoLinkContainer:hover{
-  text-decoration: none;
+.logoLinkContainer {
+    display: contents;
 }
 
-.nav-item{
-  padding: 0 30px;
-  white-space: nowrap;
+.logoLinkContainer:hover {
+    text-decoration: none;
 }
 
-.testDriveLogo{
- margin-left: 30px;
+.nav-item {
+    padding: 0 20px;
+    white-space: nowrap;
 }
 
-.fancy{
- font-size: 36px;
- font-weight: 500;
+.testDriveLogo {
+    margin-left: 30px;
 }
 
-.brand{
- font-weight: bold !important;
- color: #0093EC !important;
- font-style: italic !important;
+.fancy {
+    font-size: 36px;
+    font-weight: 500;
 }
 
-.navbar-brand{
- padding: 0 15px;
+.brand {
+    font-weight: bold !important;
+    color: #0093EC !important;
+    font-style: italic !important;
 }
 
-.nav-link{
- font-weight: 500;
+.navbar-brand {
+    padding: 0 15px;
 }
 
+.nav-link {
+    font-weight: 500;
+}
 
 #logo {
-  font-size: 32px;
-  font-weight: 500;
-  color: #333333;
-  margin-left: 100px;
-  text-decoration: none;
+    font-size: 32px;
+    font-weight: 500;
+    color: #333333;
+    margin-left: 100px;
+    text-decoration: none;
 }
 
 #logo_pt2 {
-  font-size: 32px;
-  font-weight: bold;
-  font-style: italic;
-  color: #D2AC58;
-  text-decoration: none;
+    font-size: 32px;
+    font-weight: bold;
+    font-style: italic;
+    color: #D2AC58;
+    text-decoration: none;
 }
 
-.alignItemsCenter{
-  display: flex;
-  align-items: center;
-  align-content: center;
-  justify-content: flex-end;
+.alignItemsCenter {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-end;
 }
 
-.donationHeart{
-  margin: 0px 5px;
+.donationHeart {
+    margin: 0px 5px;
 }
