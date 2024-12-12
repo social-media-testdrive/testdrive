@@ -68,3 +68,51 @@ header {
 .donationHeart {
     margin: 0px 5px;
 }
+
+
+/* Collapse header, and show the collapse icon */
+
+@media (max-width: 1470px) {
+    .navbar .navbar-collapse {
+        display: block;
+        flex-basis: 100%;
+        flex-grow: 1;
+    }
+    .navbar .navbar-toggler {
+        display: block;
+    }
+    .navbar .navbar-collapse .navbar-nav {
+        flex-direction: column;
+    }
+    .collapse:not(.show) {
+        display: none !important;
+    }
+    .nav-link {
+        text-align: right;
+    }
+}
+
+
+/* Expand header, and hide the collapse icon */
+
+@media (min-width: 1471px) {
+    .navbar {
+        -ms-flex-flow: row nowrap;
+        flex-flow: row nowrap;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+    }
+    .navbar .navbar-collapse {
+        display: flex;
+    }
+    .navbar .navbar-toggler {
+        display: none;
+    }
+    .navbar .navbar-collapse .navbar-nav {
+        flex-direction: row;
+    }
+    .navbar .navbar-collapse .navbar-nav .nav-link {
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
+    }
+}
