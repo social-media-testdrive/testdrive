@@ -87,3 +87,12 @@
 .smtd_vid {
     width: 100%;
 }
+
+
+/*  */
+
+@media (min-width: 1261px) {
+    #intro .row {
+        align-items: center!important;
+    }
+}
